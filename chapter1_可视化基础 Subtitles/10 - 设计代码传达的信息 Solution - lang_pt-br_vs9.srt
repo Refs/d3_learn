@@ -1,0 +1,175 @@
+1
+00:00:00,680 --> 00:00:01,750
+Que conselho você dá para
+
+2
+00:00:01,750 --> 00:00:04,660
+iniciantes que talvez não tenham muita experiência com programação?
+
+3
+00:00:05,830 --> 00:00:08,590
+&gt;&gt; Por um lado, é um ótimo momento para fazer isso porque
+
+4
+00:00:09,680 --> 00:00:11,950
+o campo está de certa maneira em expansão.
+
+5
+00:00:13,520 --> 00:00:16,930
+Há um tipo de movimento de dados, big data, todos estão falando sobre
+
+6
+00:00:16,930 --> 00:00:20,790
+dados e, ao mesmo tempo, há muita gente tentando
+
+7
+00:00:20,790 --> 00:00:23,456
+entender esses dados e geralmente [INAUDIBLE].
+
+8
+00:00:24,540 --> 00:00:25,910
+Em termos de conselho, é
+
+9
+00:00:25,910 --> 00:00:30,750
+difícil dar conselhos gerais porque o bom e o
+
+10
+00:00:30,750 --> 00:00:33,110
+ruim é há muitas maneiras de trabalhar neste setor.
+
+11
+00:00:34,420 --> 00:00:38,970
+Se alguém quiser entrar para um curso para estudar programas,
+
+12
+00:00:38,970 --> 00:00:43,990
+há programas como o da Udacity. Mas não há uma grande variedade de
+
+13
+00:00:43,990 --> 00:00:48,120
+especializações ou programas de graduação em visualização de informações.
+
+14
+00:00:50,100 --> 00:00:55,100
+Sendo assim, não há um único lugar para obter todas as habilidades necessárias.
+
+15
+00:00:55,100 --> 00:00:56,810
+O que eu considero interessante na área
+
+16
+00:00:56,810 --> 00:01:00,160
+é que as pessoas vêm de várias áreas diferentes.
+
+17
+00:01:00,160 --> 00:01:03,270
+Por exemplo, arquitetos, desenhistas industriais, designers gráficos,
+
+18
+00:01:03,270 --> 00:01:05,030
+estatísticos, matemáticos.
+
+19
+00:01:05,030 --> 00:01:08,780
+Todos já têm algum tipo de formação principal e
+
+20
+00:01:08,780 --> 00:01:10,310
+a trazem para a área.
+
+21
+00:01:10,310 --> 00:01:13,060
+O que encorajo as pessoas a fazerem é
+
+22
+00:01:14,060 --> 00:01:17,110
+aproveitar ao máximo sua formação, seja ela qual for.
+
+23
+00:01:17,110 --> 00:01:21,250
+E trazê-la para a área e ver o que você pode fazer.
+
+24
+00:01:21,250 --> 00:01:21,750
+&gt;&gt; Hum.
+
+25
+00:01:21,750 --> 00:01:24,190
+&gt;&gt; Já em um nível mais prático, geralmente, as pessoas querem saber
+
+26
+00:01:24,190 --> 00:01:28,720
+que livros devem ler e quais programas devem aprender.
+
+27
+00:01:28,720 --> 00:01:30,560
+Acredito que depende.
+
+28
+00:01:30,560 --> 00:01:36,450
+Trabalho com alunos que vêm do design e, para eles,
+
+29
+00:01:36,450 --> 00:01:40,770
+não há necessidade de se aprofundar em projetos técnicos com códigos pesados.
+
+30
+00:01:40,770 --> 00:01:45,610
+Para eles, faz mais sentido criar a partir do que já sabem. Então, para alguém com experiência em design,
+
+31
+00:01:45,610 --> 00:01:48,530
+eu diria para começar com o Illustrator.
+
+32
+00:01:48,530 --> 00:01:50,440
+Comece a fazer as coisas manualmente e
+
+33
+00:01:50,440 --> 00:01:53,760
+descubra maneiras de conectar as coisas que você já sabe com dados.
+
+34
+00:01:53,760 --> 00:02:00,150
+Alguém que venha de ciências da computação, matemática, algo assim.
+
+35
+00:02:00,150 --> 00:02:01,160
+Obviamente, se você aproveitar
+
+36
+00:02:01,160 --> 00:02:04,160
+suas habilidades, poderá usar algumas dessas ferramentas mais avançadas.
+
+37
+00:02:04,160 --> 00:02:07,730
+Mas talvez você tenha que aprender a linguagem de design e os princípios visuais,
+
+38
+00:02:07,730 --> 00:02:11,650
+observar a percepção e a psicologia humanas e como
+
+39
+00:02:11,650 --> 00:02:15,530
+interpretamos cores, escalas, tamanho e proporção, dentre outros.
+
+40
+00:02:15,530 --> 00:02:20,670
+Portanto, infelizmente, a resposta é "depende" e
+
+41
+00:02:20,670 --> 00:02:23,120
+será um pouco diferente para cada um, não tem problema.
+
+42
+00:02:23,120 --> 00:02:26,800
+Na realidade, o mais interessante sobre a área é que todos têm sua
+
+43
+00:02:26,800 --> 00:02:27,450
+própria perspectiva.
+
+44
+00:02:27,450 --> 00:02:27,950
+&gt;&gt; Excelente.

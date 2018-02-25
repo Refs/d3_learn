@@ -1,0 +1,107 @@
+1
+00:00:00,240 --> 00:00:03,200
+Há apenas alguns matizes adicionais da biblioteca e
+
+2
+00:00:03,200 --> 00:00:07,360
+algumas etapas que precisamos realizar antes de poder passar do código fonte
+
+3
+00:00:07,360 --> 00:00:11,710
+de nossa visualização D3 para um belo gráfico na biblioteca.
+
+4
+00:00:11,710 --> 00:00:15,320
+Vimos a origem de uma visualização D3 completa,
+
+5
+00:00:15,320 --> 00:00:17,970
+neste caso, um gráfico de barras horizontal e
+
+6
+00:00:17,970 --> 00:00:21,740
+brincamos um pouco com o D3 em um console de navegador da Web.
+
+7
+00:00:21,740 --> 00:00:25,950
+Mas como passar exatamente de um arquivo de origem para o que está
+
+8
+00:00:25,950 --> 00:00:27,050
+exibido no navegador da Web?
+
+9
+00:00:27,050 --> 00:00:30,510
+Toda URL tem quatro componentes básicos.
+
+10
+00:00:30,510 --> 00:00:35,590
+Algumas vezes, se você estiver usando um navegador moderno, incluindo o Chrome, ele oculta
+
+11
+00:00:37,410 --> 00:00:44,110
+a primeira parte de http:// uma vez que isso é comum entre todas as URLs.
+
+12
+00:00:44,110 --> 00:00:49,500
+O HTTP, neste caso, corresponde ao protocolo que foi usado para carregar a página.
+
+13
+00:00:49,500 --> 00:00:54,480
+Se você simplesmente clicar duas vezes no arquivo HTML, sem ir para um servidor da Web,
+
+14
+00:00:54,480 --> 00:01:01,960
+você poderá ver file:// indicando que ele foi carregado com o protocolo de arquivo.
+
+15
+00:01:01,960 --> 00:01:04,750
+A segunda parte da URL, neste caso,
+
+16
+00:01:04,750 --> 00:01:10,510
+localhost, corresponde ao host ou ao servidor do qual o arquivo foi carregado.
+
+17
+00:01:10,510 --> 00:01:15,760
+Como você está executando um servidor da Web local para atender tanto nosso HTML
+
+18
+00:01:15,760 --> 00:01:20,470
+como nossos dados, ele é simplesmente localhost, indicando a máquina atual.
+
+19
+00:01:20,470 --> 00:01:25,920
+A próxima seção da URL, que vem depois do dois pontos, neste caso, 8000,
+
+20
+00:01:25,920 --> 00:01:27,540
+faz referência à porta.
+
+21
+00:01:27,540 --> 00:01:29,520
+Se você imaginar nosso host ou
+
+22
+00:01:29,520 --> 00:01:34,030
+nosso servidor como um complexo de apartamentos, a porta seria
+
+23
+00:01:34,030 --> 00:01:38,810
+a unidade individual daquele complexo de apartamentos que queremos acessar.
+
+24
+00:01:38,810 --> 00:01:43,910
+Mais uma vez, o host pode ser o endereço do prédio de apartamentos e
+
+25
+00:01:43,910 --> 00:01:47,390
+a porta pode ser o número da unidade do apartamento.
+
+26
+00:01:47,390 --> 00:01:50,220
+E, finalmente, o que vem depois da porta, neste
+
+27
+00:01:50,220 --> 00:01:54,720
+caso, let's_make_a_bar_chart.html, é o arquivo que queremos carregar.

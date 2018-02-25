@@ -1,0 +1,111 @@
+1
+00:00:00,350 --> 00:00:02,280
+País foi codificado por matiz de cor.
+
+2
+00:00:02,280 --> 00:00:06,280
+Vitórias e derrotas foram codificados por posição y ou orientação.
+
+3
+00:00:06,280 --> 00:00:09,060
+Margem de gols foi codificado por posição y ou comprimento.
+
+4
+00:00:09,060 --> 00:00:13,910
+Vencedores da Copa do Mundo foram indicados por formato, e tempo foi codificado pela posição x.
+
+5
+00:00:13,910 --> 00:00:15,560
+Vamos ver isso no gráfico.
+
+6
+00:00:15,560 --> 00:00:19,050
+Podemos ver que país está codificado pela cor das barras ou
+
+7
+00:00:19,050 --> 00:00:21,630
+cada país tem seu próprio painel de dados.
+
+8
+00:00:21,630 --> 00:00:26,380
+A Alemanha é vermelha, o Brasil é verde, a Argentina é azul e
+
+9
+00:00:26,380 --> 00:00:28,380
+os Países Baixos são laranja.
+
+10
+00:00:28,380 --> 00:00:31,020
+Cada uma dessas barras representa um jogo e
+
+11
+00:00:31,020 --> 00:00:32,680
+a margem de gols dele.
+
+12
+00:00:32,680 --> 00:00:34,590
+O fato de um jogo ter sido uma vitória ou
+
+13
+00:00:34,590 --> 00:00:39,010
+derrota depende da posição y ou da orientação da barra.
+
+14
+00:00:39,010 --> 00:00:41,120
+As barras que apontam para cima indicam vitórias
+
+15
+00:00:41,120 --> 00:00:44,970
+da Alemanha e as que apontam para baixo indicam derrotas dela.
+
+16
+00:00:44,970 --> 00:00:48,780
+A margem de gols de cada jogo é o comprimento da barra.
+
+17
+00:00:48,780 --> 00:00:50,940
+Neste caso, parece ser 3 positivo.
+
+18
+00:00:50,940 --> 00:00:55,880
+Também aceitamos a posição y, já que a margem de gols pode ser positiva para cima
+
+19
+00:00:55,880 --> 00:00:57,150
+ou negativa para baixo.
+
+20
+00:00:57,150 --> 00:01:01,860
+Tempo é codificado horizontalmente no eixo x para cada múltiplo pequeno.
+
+21
+00:01:01,860 --> 00:01:07,295
+Por fim, o fato de um país ser vencedor ou não de uma Copa do Mundo é codificado
+
+22
+00:01:07,295 --> 00:01:13,265
+por formato ou uma estrela, como da Alemanha em 1954, 1974 e 1990.
+
+23
+00:01:13,265 --> 00:01:16,350
+Acho que esta visualização é bem-sucedida.
+
+24
+00:01:16,350 --> 00:01:19,360
+O incrível é que há mais coisas acontecendo nela,
+
+25
+00:01:19,360 --> 00:01:22,330
+como estas anotações e a alternância entre
+
+26
+00:01:22,330 --> 00:01:26,440
+o plano de fundo branco e castanho claro que codifica os anos.
+
+27
+00:01:26,440 --> 00:01:29,320
+Se você encontrar mais coisas de que gosta nesta visualização,
+
+28
+00:01:29,320 --> 00:01:30,710
+compartilhe-as nos threads de discussão.

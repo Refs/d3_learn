@@ -1,0 +1,27 @@
+1
+00:00:00,600 --> 00:00:02,580
+Acabamos de aprender sobre a teoria por trás de
+
+2
+00:00:02,580 --> 00:00:05,120
+uma visualização de dados eficaz.
+
+3
+00:00:05,120 --> 00:00:11,610
+Vimos como as cores, as formas, o comprimento e as escalas, dentre outros elementos visuais,
+
+4
+00:00:11,610 --> 00:00:15,190
+podem contribuir tanto para a aparência de uma visualização de dados
+
+5
+00:00:15,190 --> 00:00:19,330
+como para a comunicação de informações e dados subjacentes.
+
+6
+00:00:19,330 --> 00:00:22,490
+Agora, quero falar sobre como podemos criar algumas das visualizações que
+
+7
+00:00:22,490 --> 00:00:26,160
+vimos e colocar em prática a teoria sobre a qual conversamos.

@@ -1,0 +1,27 @@
+1
+00:00:00,320 --> 00:00:03,500
+Agora que você aprendeu sobre os tipos de dados, quero que você veja
+
+2
+00:00:03,500 --> 00:00:06,340
+esta imagem que está vinculada às notas do instrutor.
+
+3
+00:00:06,340 --> 00:00:10,450
+Prossegui e identifiquei as variáveis diferentes nesta visualização,
+
+4
+00:00:10,450 --> 00:00:14,320
+mas o que quero fazer é identificá-las através dos tipos de dados.
+
+5
+00:00:14,320 --> 00:00:19,620
+Por exemplo, nesta variável, as visitas ao médico por ano, referem-se a um tipo de dados nominal
+
+6
+00:00:19,620 --> 00:00:23,360
+um tipo de dados ordenado ou um tipo de dados quantitativo?
+
+7
+00:00:23,360 --> 00:00:25,870
+Escolha uma dessas opções para cada uma das variáveis.

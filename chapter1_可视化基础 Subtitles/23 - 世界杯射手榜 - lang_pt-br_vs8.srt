@@ -1,0 +1,71 @@
+1
+00:00:00,150 --> 00:00:03,225
+Nossa primeira visualização é da Copa do Mundo.
+
+2
+00:00:03,225 --> 00:00:05,830
+Ficamos muito animados com a Copa do Mundo aqui no nosso escritório.
+
+3
+00:00:05,830 --> 00:00:07,720
+Por isso, pensamos que poderia ser adequado.
+
+4
+00:00:07,720 --> 00:00:11,000
+Você pode encontrar um link para este gráfico e fechar suas notas.
+
+5
+00:00:11,000 --> 00:00:11,620
+Revise o gráfico
+
+6
+00:00:11,620 --> 00:00:14,930
+por um ou dois minutos e faça perguntas sobre os dados.
+
+7
+00:00:14,930 --> 00:00:17,650
+Assim você pode ter uma ideia de como o gráfico funciona.
+
+8
+00:00:17,650 --> 00:00:19,790
+Quando você estiver pronto, determine
+
+9
+00:00:19,790 --> 00:00:23,920
+como algumas variáveis estão codificadas visualmente no gráfico.
+
+10
+00:00:23,920 --> 00:00:29,090
+Você escolherá uma destas codificações visuais para uma variável específica.
+
+11
+00:00:29,090 --> 00:00:33,050
+Por exemplo, para Country: como ele está codificado no gráfico?
+
+12
+00:00:33,050 --> 00:00:33,970
+É um ângulo?
+
+13
+00:00:33,970 --> 00:00:37,050
+Está por tamanho, orientação ou alguma outra opção?
+
+14
+00:00:37,050 --> 00:00:38,910
+Escreva sua resposta na caixa.
+
+15
+00:00:38,910 --> 00:00:42,630
+Em seguida, escolha outra codificação visual para as demais variáveis.
+
+16
+00:00:42,630 --> 00:00:45,740
+É possível escolher várias codificações visuais para
+
+17
+00:00:45,740 --> 00:00:47,100
+cada variável.
+
+18
+00:00:47,100 --> 00:00:50,480
+Ou seja, é possível reutilizar uma codificação visual como resposta.

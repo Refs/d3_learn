@@ -1,0 +1,27 @@
+1
+00:00:00,220 --> 00:00:04,610
+Embora as outras tecnologias listadas aqui sejam relacionadas a essa capacidade,
+
+2
+00:00:04,610 --> 00:00:08,940
+e embora você possa argumentar que sem o código fonte HTML
+
+3
+00:00:08,940 --> 00:00:15,170
+não haveria nenhuma página da Web para exibir, a melhor resposta é o modelo de objeto de documento.
+
+4
+00:00:15,170 --> 00:00:21,420
+O motivo é que o modelo de objeto de documento é a representação abstrata
+
+5
+00:00:21,420 --> 00:00:26,458
+do código fonte HTML e permite que façamos interface de forma programática
+
+6
+00:00:26,458 --> 00:00:31,740
+com elementos HTML, habilitando o navegador a criar esse link
+
+7
+00:00:31,740 --> 00:00:37,101
+entre a exibição visual de um elemento e a tag do código fonte HTML.

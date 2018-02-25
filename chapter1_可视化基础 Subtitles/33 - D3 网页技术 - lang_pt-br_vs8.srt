@@ -1,0 +1,11 @@
+1
+00:00:00,410 --> 00:00:03,850
+Você aprendeu alguns dos motivos para escolher o D3.
+
+2
+00:00:03,850 --> 00:00:10,110
+Parte deles se baseia nas tecnologias nas quais o D3 é desenvolvido e utiliza.
+
+3
+00:00:10,110 --> 00:00:15,210
+Selecione todas as tecnologias abaixo que o D3 usa ou nas quais é desenvolvido.

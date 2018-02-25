@@ -1,0 +1,243 @@
+1
+00:00:00,370 --> 00:00:02,760
+Agora que você foi apresentado aos tipos de dados,
+
+2
+00:00:02,760 --> 00:00:05,600
+vamos examinar as muitas opções de codificações visuais que temos.
+
+3
+00:00:06,860 --> 00:00:13,000
+Simplificando, as codificações visuais são mapeamentos de dados para elementos de exibição.
+
+4
+00:00:13,000 --> 00:00:17,300
+A visualização que vimos antes compartilha a correlação entre renda por
+
+5
+00:00:17,300 --> 00:00:21,900
+pessoa e expectativa de vida em muitos países diferentes.
+
+6
+00:00:21,900 --> 00:00:25,310
+Este gráfico é rico em codificações visuais.
+
+7
+00:00:25,310 --> 00:00:27,420
+Vamos examinar algumas dessas codificações visuais agora.
+
+8
+00:00:28,550 --> 00:00:33,180
+Life expectancy está codificada visualmente ao longo do eixo y,
+
+9
+00:00:33,180 --> 00:00:37,070
+enquanto spending per person está codificado ao longo do eixo x.
+
+10
+00:00:37,070 --> 00:00:40,500
+Para nossa visualização de dados isso significa que os países que estão localizados no
+
+11
+00:00:40,500 --> 00:00:44,940
+canto superior direito do gráfico, como Qatar, tiveram uma alta renda por pessoa e
+
+12
+00:00:44,940 --> 00:00:48,540
+uma alta expectativa de vida. O oposto seria verdadeiro para os
+
+13
+00:00:48,540 --> 00:00:50,150
+países no canto inferior esquerdo do gráfico.
+
+14
+00:00:51,260 --> 00:00:55,520
+A posição é considerada uma variável plana porque ela localiza pontos no espaço.
+
+15
+00:00:56,640 --> 00:00:59,570
+Ela é provavelmente uma das codificações visuais mais proeminentes que você verá na
+
+16
+00:00:59,570 --> 00:01:01,160
+visualização de dados.
+
+17
+00:01:01,160 --> 00:01:05,319
+E também um elemento de exibição que podemos perceber com grande precisão.
+
+18
+00:01:05,319 --> 00:01:09,850
+Portanto, sabemos que a posição pode ser boa para codificar duas variáveis, mas o que
+
+19
+00:01:09,850 --> 00:01:14,560
+nós fazemos se quisermos visualizar dimensões mais altas dos dados, digamos uma terceira variável.
+
+20
+00:01:15,870 --> 00:01:20,490
+Bem, poderíamos visualizar uma terceira variável na terceira dimensão, portanto,
+
+21
+00:01:20,490 --> 00:01:22,680
+ao longo do eixo z aqui.
+
+22
+00:01:22,680 --> 00:01:26,530
+No entanto, os modelos 3D geralmente são percebidos inadequadamente por nossos olhos,
+
+23
+00:01:26,530 --> 00:01:30,590
+pois é mais difícil fazer comparações quantitativas entre pontos.
+
+24
+00:01:30,590 --> 00:01:32,010
+Por exemplo, não tenho muita
+
+25
+00:01:32,010 --> 00:01:35,690
+certeza sobre quais destes dois pontos tem um valor y ou uma altura maior.
+
+26
+00:01:36,720 --> 00:01:40,310
+Portanto, precisamos de alguma outra maneira de codificar uma terceira variável para
+
+27
+00:01:40,310 --> 00:01:42,140
+nossa visualização de dados.
+
+28
+00:01:42,140 --> 00:01:45,990
+Felizmente, temos alguns outros elementos de exibição que podemos usar no lugar.
+
+29
+00:01:45,990 --> 00:01:50,150
+Podemos usar o que é chamado de variáveis de retina para codificar variáveis adicionais para
+
+30
+00:01:50,150 --> 00:01:53,720
+nosso conjunto de dados, tamanho é um exemplo de uma variável de retina e
+
+31
+00:01:53,720 --> 00:01:55,490
+é especialmente bom para dados ordenados.
+
+32
+00:01:56,490 --> 00:01:59,200
+Voltando à nossa visualização de dados de saúde mundial,
+
+33
+00:01:59,200 --> 00:02:03,980
+vemos que a população está codificada pelo tamanho de cada círculo ou,
+
+34
+00:02:03,980 --> 00:02:06,650
+mais precisamente, pela área de cada ponto.
+
+35
+00:02:06,650 --> 00:02:09,750
+Em combinação com cor, o atributo size torna alguns
+
+36
+00:02:09,750 --> 00:02:14,680
+países mais reconhecíveis, como a Índia, a China e os Estados Unidos.
+
+37
+00:02:15,850 --> 00:02:17,210
+O tamanho e o matiz da cor,
+
+38
+00:02:17,210 --> 00:02:22,480
+que acabamos de ver na visualização, são dois exemplos de variável de retina.
+
+39
+00:02:22,480 --> 00:02:23,470
+E se desejarmos,
+
+40
+00:02:23,470 --> 00:02:28,280
+podemos até codificar variáveis adicionais e essas outras variáveis de retina.
+
+41
+00:02:28,280 --> 00:02:29,670
+Tamanho, orientação e
+
+42
+00:02:29,670 --> 00:02:32,960
+saturação de cor são especialmente efetivos para ordenar dados.
+
+43
+00:02:34,320 --> 00:02:39,040
+No entanto, pode ser difícil perceber diferenças quantitativas usando essas
+
+44
+00:02:39,040 --> 00:02:39,940
+codificações visuais.
+
+45
+00:02:40,990 --> 00:02:44,740
+A diferença de valor percebida entre, digamos, azul-claro e
+
+46
+00:02:44,740 --> 00:02:48,030
+azul mais claro não é tão óbvia.
+
+47
+00:02:48,030 --> 00:02:51,520
+Estas outras variáveis de retina, como matiz de cor, forma e
+
+48
+00:02:51,520 --> 00:02:55,360
+textura, são ótimas para codificar variáveis nominais.
+
+49
+00:02:55,360 --> 00:02:57,260
+Para nossa visualização Gapminder,
+
+50
+00:02:57,260 --> 00:03:00,759
+podemos ver que o matiz de cor codifica as regiões geográficas do mundo.
+
+51
+00:03:02,140 --> 00:03:05,640
+Essa opção de cor facilita a comparação de income e
+
+52
+00:03:05,640 --> 00:03:09,830
+life expectancy entre os países desenvolvidos e os menos desenvolvidos do mundo.
+
+53
+00:03:10,880 --> 00:03:13,290
+A última variável que precisamos abordar é tempo.
+
+54
+00:03:14,290 --> 00:03:18,850
+O tempo não um elemento de exibição estático, como cor, tamanho ou posição.
+
+55
+00:03:19,880 --> 00:03:23,900
+Em vez disso, o tempo é animado por meio de quadros individuais em nossa visualização.
+
+56
+00:03:25,120 --> 00:03:29,520
+A rápida sucessão desses quadros mostra alteração em life expectancy,
+
+57
+00:03:29,520 --> 00:03:32,720
+income per person e population over time.
+
+58
+00:03:33,830 --> 00:03:37,640
+Ele é o aspecto notável e envolvente desta visualização, e nós
+
+59
+00:03:37,640 --> 00:03:41,790
+aprenderemos como incorporar esse tipo de visualização dinâmica na lição quatro.
+
+60
+00:03:41,790 --> 00:03:46,083
+Agora que você viu um exemplo de como mapear dados para elementos da exibição,
+
+61
+00:03:46,083 --> 00:03:49,880
+vamos ver se você pode fazer isso para mais duas visualizações.

@@ -1,0 +1,71 @@
+1
+00:00:00,500 --> 00:00:04,305
+A porcentagem média de pessoas obesas em todos os estados é 27%.
+
+2
+00:00:04,305 --> 00:00:07,590
+Com a ajuda de um pouco de interatividade neste gráfico,
+
+3
+00:00:07,590 --> 00:00:10,620
+eu posso focalizar esta linha preta do meio e ver isso.
+
+4
+00:00:10,620 --> 00:00:12,190
+Aqui está o número.
+
+5
+00:00:12,190 --> 00:00:17,030
+Para a segunda pergunta, estamos procurando DC ou o Distrito de Colúmbia.
+
+6
+00:00:17,030 --> 00:00:19,500
+Esta pergunta foi um pouco mais fácil de responder.
+
+7
+00:00:19,500 --> 00:00:22,570
+Podemos determinar estas classificações olhando o estado que está no
+
+8
+00:00:22,570 --> 00:00:24,040
+lado esquerdo aqui.
+
+9
+00:00:24,040 --> 00:00:25,280
+Portanto, se seu apenas focalizar,
+
+10
+00:00:25,280 --> 00:00:29,220
+este seria o estado menos instruído por população, Virgínia do Oeste.
+
+11
+00:00:29,220 --> 00:00:33,020
+O mais instruído seria aqui, o Distrito de Colúmbia.
+
+12
+00:00:33,020 --> 00:00:36,390
+E, finalmente, a maioria dos estados têm porcentagens mais altas de pessoas obesas.
+
+13
+00:00:37,440 --> 00:00:39,610
+Este é mais difícil de observar no gráfico, mas
+
+14
+00:00:39,610 --> 00:00:42,910
+pode ser reconhecido a partir da cor das linhas.
+
+15
+00:00:42,910 --> 00:00:44,120
+Examinando nosso gráfico,
+
+16
+00:00:44,120 --> 00:00:48,630
+podemos perceber mais linhas vermelhas que azuis.
+
+17
+00:00:48,630 --> 00:00:52,310
+Portanto, um pouco mais de estados têm um par de porcentagens maior de pessoas obesas
+
+18
+00:00:52,310 --> 00:00:54,920
+em comparação com as porcentagens de pessoas com mais instrução.

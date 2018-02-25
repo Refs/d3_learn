@@ -1,0 +1,143 @@
+1
+00:00:00,250 --> 00:00:05,010
+Quero dar uma visão geral de alto nível da estrutura do código de Mike
+
+2
+00:00:05,010 --> 00:00:08,530
+para dar uma ideia de como organizar o seu próprio e
+
+3
+00:00:08,530 --> 00:00:11,500
+também quero explicar alguns elementos que talvez
+
+4
+00:00:11,500 --> 00:00:16,050
+não tenhamos encontrado no console nos exemplos que vimos.
+
+5
+00:00:16,050 --> 00:00:22,370
+Aqui na parte superior, temos uma tag script que carrega nossa biblioteca D3.
+
+6
+00:00:22,370 --> 00:00:25,810
+Logo abaixo da tag script, temos uma tag style
+
+7
+00:00:25,810 --> 00:00:31,310
+que pode ser usada para adicionar estilos aos gráficos e elementos criados pelo D3.
+
+8
+00:00:31,310 --> 00:00:36,850
+Grande parte da lógica da visualização vem a seguir, agrupada em um função draw.
+
+9
+00:00:36,850 --> 00:00:41,320
+Essas três primeiras coisas que abordamos
+
+10
+00:00:41,320 --> 00:00:45,310
+estão contidas na tag head da nossa página HTML.
+
+11
+00:00:45,310 --> 00:00:47,480
+Assim que abrimos nossa tag body,
+
+12
+00:00:47,480 --> 00:00:52,430
+colocamos um SVG com gráfico de classe para segurar a visualização.
+
+13
+00:00:52,430 --> 00:00:55,100
+Por fim, a última parte de JavaScript
+
+14
+00:00:55,100 --> 00:00:59,520
+carrega nosso arquivo de dados externos e chama nossa função draw.
+
+15
+00:00:59,520 --> 00:01:02,130
+Porque o JavaScript é assíncrono.
+
+16
+00:01:02,130 --> 00:01:06,400
+O código que você vê aqui não é necessariamente executado na
+
+17
+00:01:06,400 --> 00:01:07,580
+ordem descrita.
+
+18
+00:01:07,580 --> 00:01:13,420
+Sempre que um navegador lê um arquivo HTML, faz isso de cima para baixo
+
+19
+00:01:13,420 --> 00:01:19,690
+e analisa cada linha de HTML, CSS, JavaScript ou SVG.
+
+20
+00:01:19,690 --> 00:01:22,650
+Embora uma função JavaScript possa ser analisada,
+
+21
+00:01:22,650 --> 00:01:25,280
+isso não necessariamente significa que será executada.
+
+22
+00:01:25,280 --> 00:01:27,880
+Um último ponto de frustração, normalmente
+
+23
+00:01:27,880 --> 00:01:31,580
+para iniciantes no JavaScript, é a ideia de um callback.
+
+24
+00:01:31,580 --> 00:01:35,440
+Um callback é uma função que é executada
+
+25
+00:01:35,440 --> 00:01:37,800
+quando outra função é concluída.
+
+26
+00:01:37,800 --> 00:01:41,400
+Veremos em breve como o D3 usa callbacks.
+
+27
+00:01:41,400 --> 00:01:45,250
+A primeira linha do JavaScript que é executada neste
+
+28
+00:01:45,250 --> 00:01:49,870
+HTML é a última linha que carrega nosso arquivo de dados externos
+
+29
+00:01:49,870 --> 00:01:52,030
+quando o arquivo de dados é carregado.
+
+30
+00:01:52,030 --> 00:01:56,940
+E apenas nesse momento a função draw callback é executada.
+
+31
+00:01:56,940 --> 00:02:00,010
+Repetindo: a função draw é o que combina grande parte
+
+32
+00:02:00,010 --> 00:02:02,690
+da lógica para criar nossa visualização.
+
+33
+00:02:02,690 --> 00:02:05,010
+Isso porque ela e todo o código
+
+34
+00:02:05,010 --> 00:02:10,120
+contido nela precisam de dados para associar e visualizar.
+
+35
+00:02:10,120 --> 00:02:13,530
+Mas apenas quando os dados estão totalmente carregados,
+
+36
+00:02:13,530 --> 00:02:15,250
+passados como o argumento para a função draw.

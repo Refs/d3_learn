@@ -1,0 +1,159 @@
+1
+00:00:00,090 --> 00:00:03,870
+Na sua opinião, quais são as melhores qualidades da boa visualização de dados.
+
+2
+00:00:03,870 --> 00:00:07,880
+&gt;&gt; Para mim, ela depende, certamente, da finalidade da visualização de dados.
+
+3
+00:00:07,880 --> 00:00:12,166
+Tenho a tendência a fazer uma distinção entre a exploratória e a explicatória.
+
+4
+00:00:12,166 --> 00:00:15,962
+&gt;&gt; Hum. &gt;&gt; Na exploratória você realmente está tentando obter uma percepção de o que,
+
+5
+00:00:15,962 --> 00:00:19,930
+o que são os dados, o que isso pode informar a você, e é um processo de transformar,
+
+6
+00:00:19,930 --> 00:00:24,488
+talvez 100 pedras diferentes, para localizar uma ou duas pepitas interessantes.
+
+7
+00:00:24,488 --> 00:00:27,869
+Depois que você encontrar as pepitas interessantes você estará no espaço explicatório,
+
+8
+00:00:27,869 --> 00:00:31,150
+querendo comunicar essas coisas a alguém.
+
+9
+00:00:31,150 --> 00:00:35,340
+Portanto, quando se trata de visualização de dados efetiva sobre o lado exploratório,
+
+10
+00:00:35,340 --> 00:00:39,260
+trata-se de permitir que os usuários possam conectar coisas
+
+11
+00:00:39,260 --> 00:00:42,710
+de formas interessantes e verificar os dados de ângulos diferentes.
+
+12
+00:00:43,792 --> 00:00:46,550
+De uma maneira imparcial e sem liderança.
+
+13
+00:00:46,550 --> 00:00:50,040
+No lado explicatório no qual eu gasto a maior parte do tempo
+
+14
+00:00:50,040 --> 00:00:55,085
+em meu trabalho ensinando e escrevendo, geralmente abrange cinco lições para obter sucesso.
+
+15
+00:00:55,085 --> 00:01:00,060
+&gt;&gt; Hum. &gt;&gt; A primeira coisa é ter uma compreensão realmente avançada do contexto.
+
+16
+00:01:00,060 --> 00:01:03,640
+Quem é seu público e que eles precisam saber ou fazer, antes de você realmente começar a pensar
+
+17
+00:01:03,640 --> 00:01:06,282
+sobre como vai mostrar os dados.
+
+18
+00:01:06,282 --> 00:01:08,110
+&gt;&gt; Hum. &gt;&gt; Em seguida, quando se trata de mostrar os dados,
+
+19
+00:01:08,110 --> 00:01:11,870
+a segunda lição é escolher um tipo visual apropriado.
+
+20
+00:01:11,870 --> 00:01:14,810
+Você quer pensar realmente sobre o que quer que seu público faça
+
+21
+00:01:14,810 --> 00:01:19,290
+com as informações e qual classificação do gráfico ou de outros tipos visuais vão permitir que
+
+22
+00:01:19,290 --> 00:01:23,970
+eles façam isso de maneira mais fácil e direta.
+
+23
+00:01:23,970 --> 00:01:25,640
+A terceira lição é sobre a falta de ordem.
+
+24
+00:01:25,640 --> 00:01:27,530
+Sentir-se confortável para identificar e
+
+25
+00:01:27,530 --> 00:01:32,120
+eliminar as coisas que não estão adicionando valor informativo aos nossos valores visuais.
+
+26
+00:01:32,120 --> 00:01:33,118
+E cortá-las.
+
+27
+00:01:33,118 --> 00:01:35,334
+Fazer isso, diminui a carga cognitiva e
+
+28
+00:01:35,334 --> 00:01:37,754
+faz com que nossos dados se destaquem mais.
+
+29
+00:01:37,754 --> 00:01:41,004
+E quando se trata de nossos dados se destacarem mais, a quarta lição é direcionar,
+
+30
+00:01:41,004 --> 00:01:44,270
+direcionar a atenção de seu público para onde você quer.
+
+31
+00:01:44,270 --> 00:01:48,660
+Usando cor e tamanho e posicionamento na página.
+
+32
+00:01:48,660 --> 00:01:52,020
+Estrategicamente como indicadores para seu público,
+
+33
+00:01:52,020 --> 00:01:53,960
+é mais importante olhar aqui primeiro.
+
+34
+00:01:53,960 --> 00:01:55,080
+Ou este é o próximo mais importante.
+
+35
+00:01:55,080 --> 00:01:56,460
+Preste atenção aqui.
+
+36
+00:01:56,460 --> 00:01:58,500
+E assim por diante.
+
+37
+00:01:58,500 --> 00:02:00,920
+E a lição final é sobre a história.
+
+38
+00:02:00,920 --> 00:02:04,660
+Para mim as visualizações de dados explicatória de mais sucesso,
+
+39
+00:02:04,660 --> 00:02:08,820
+torna-se um ponto principal em uma história ou narrativa que está sendo contada.
+
+40
+00:02:08,820 --> 00:02:09,320
+&gt;&gt; Hum.

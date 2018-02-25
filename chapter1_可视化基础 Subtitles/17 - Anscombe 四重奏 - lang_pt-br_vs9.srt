@@ -1,0 +1,91 @@
+1
+00:00:00,595 --> 00:00:02,420
+É sempre importante plotar seus dados.
+
+2
+00:00:02,420 --> 00:00:04,350
+Vejamos um exemplo y.
+
+3
+00:00:04,350 --> 00:00:08,300
+Tenho aqui onze pontos de dados que plotei à direita.
+
+4
+00:00:08,300 --> 00:00:11,830
+Vamos calcular algumas estatísticas de resumo sobre este conjunto de dados.
+
+5
+00:00:11,830 --> 00:00:16,870
+Por exemplo, média, variação, coeficiente de correlação e linha de melhor ajuste.
+
+6
+00:00:16,870 --> 00:00:21,322
+Dou mais três conjuntos de dados para você com exatamente
+
+7
+00:00:21,322 --> 00:00:23,760
+a mesma estatística de resumo, assim.
+
+8
+00:00:23,760 --> 00:00:26,747
+Você espera que, como esses conjuntos de dados têm a mesma
+
+9
+00:00:26,747 --> 00:00:28,918
+média, variação, coeficiente de correlação
+
+10
+00:00:28,918 --> 00:00:32,439
+e linha de melhor ajuste, a visualização deles seja semelhante.
+
+11
+00:00:32,439 --> 00:00:33,820
+Vamos ver agora.
+
+12
+00:00:33,820 --> 00:00:35,630
+Qual é o nível de semelhança deles?
+
+13
+00:00:35,630 --> 00:00:36,240
+Não muito.
+
+14
+00:00:37,290 --> 00:00:39,510
+Vemos aqui que o efeito da curvatura e
+
+15
+00:00:39,510 --> 00:00:43,230
+exceções foi drasticamente excluído da nossa estatística de resumo.
+
+16
+00:00:43,230 --> 00:00:45,830
+Isso é chamado de quarteto de Anscombe.
+
+17
+00:00:45,830 --> 00:00:49,260
+Demonstra como é importante sempre plotar os dados,
+
+18
+00:00:49,260 --> 00:00:52,128
+em vez de confiar só na estatística de resumo.
+
+19
+00:00:52,128 --> 00:00:56,560
+Ferramentas como matplotlib, no Python, ou ggplot, em R, são ótimas
+
+20
+00:00:56,560 --> 00:01:00,580
+formas de plotar dados visualmente, permitindo escolher padrões visuais,
+
+21
+00:01:00,580 --> 00:01:02,450
+tendências e exceções na análise.
+
+22
+00:01:02,450 --> 00:01:05,950
+Espero que este exemplo tenha mostrado a importância da visualização de
+
+23
+00:01:05,950 --> 00:01:07,190
+dados e por que você deve usá-la sempre.

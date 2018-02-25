@@ -1,0 +1,67 @@
+1
+00:00:00,600 --> 00:00:03,719
+Até este ponto você aprendeu muito sobre o básico da visualização de dados.
+
+2
+00:00:03,719 --> 00:00:08,910
+Aprendeu o que constitui uma boa visualização de dados e quais
+
+3
+00:00:08,910 --> 00:00:12,630
+tipos de opções visuais e de codificação pode usar para representar seus dados.
+
+4
+00:00:12,630 --> 00:00:16,239
+&gt;&gt; Você viu onde a visualização de dados se encaixa no processo amplo da
+
+5
+00:00:16,239 --> 00:00:17,220
+ciência de dados.
+
+6
+00:00:17,220 --> 00:00:19,960
+E também conheceu algumas das tecnologias que
+
+7
+00:00:19,960 --> 00:00:23,990
+cientistas de dados e artistas de dados escolhem quando estão criando gráficos e
+
+8
+00:00:23,990 --> 00:00:25,770
+visualizações próprias.
+
+9
+00:00:25,770 --> 00:00:28,410
+Tivemos uma oportunidade de brincar com o D3 no navegador e
+
+10
+00:00:28,410 --> 00:00:31,300
+trabalhar com algum código. Espero ter despertado seu interesse pelos
+
+11
+00:00:31,300 --> 00:00:34,600
+tipos de visualizações que criaremos neste curso.
+
+12
+00:00:34,600 --> 00:00:37,930
+&gt;&gt; Depois, iremos ver mais alguns elementos centrais de desenho de
+
+13
+00:00:37,930 --> 00:00:41,590
+visualização de dados e também como escolher o tipo certo de visualização
+
+14
+00:00:41,590 --> 00:00:42,770
+para seu tipo de dados.
+
+15
+00:00:42,770 --> 00:00:45,530
+Também ofereceremos algumas ferramentas para pensar criticamente sobre as visualizações
+
+16
+00:00:45,530 --> 00:00:47,290
+de dados que você cria e
+
+17
+00:00:47,290 --> 00:00:49,360
+também analisar visualizações de dados que você vê em uma grande variedade de ambientes

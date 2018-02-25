@@ -1,0 +1,111 @@
+1
+00:00:00,270 --> 00:00:01,990
+Olá e bem-vindo à aula.
+
+2
+00:00:01,990 --> 00:00:06,130
+Estou aqui com Jonathan e Ryan do Academy que é um programa de imersão para
+
+3
+00:00:06,130 --> 00:00:08,360
+os alunos aprenderem tudo sobre a ciência de dados.
+
+4
+00:00:08,360 --> 00:00:11,570
+Estamos muito empolgados em ensinar vocês sobre a visualização de dados e
+
+5
+00:00:11,570 --> 00:00:14,880
+queremos iniciar esta aula com uma pergunta simples.
+
+6
+00:00:14,880 --> 00:00:17,880
+Então, Jonathan e Ryan, o que é a visualização de dados?
+
+7
+00:00:17,880 --> 00:00:19,270
+&gt;&gt; Ótima pergunta, Chris.
+
+8
+00:00:19,270 --> 00:00:23,250
+Para mim a visualização de dados é sobre transmitir uma história ou
+
+9
+00:00:23,250 --> 00:00:25,330
+uma ideia da maneira mais eficiente possível.
+
+10
+00:00:25,330 --> 00:00:28,440
+Com frequência, ouvimos que uma imagem vale por valor 1.000 palavras e
+
+11
+00:00:28,440 --> 00:00:31,470
+acredito que a visualização de dados funciona da mesma maneira.
+
+12
+00:00:31,470 --> 00:00:35,370
+Os cientistas de dados usaram a visualização de dados diariamente para explorar padrões em
+
+13
+00:00:35,370 --> 00:00:37,550
+seus dados e finalmente transmitir seus resultados.
+
+14
+00:00:37,550 --> 00:00:40,210
+Portanto, estamos muito empolgados em compartilhar algo
+
+15
+00:00:40,210 --> 00:00:42,240
+que ensinamos a nossos alunos com você hoje.
+
+16
+00:00:42,240 --> 00:00:43,700
+&gt;&gt; Legal. E Jonathan, e você?
+
+17
+00:00:43,700 --> 00:00:45,391
+O que você pensa sobre a visualização de dados?
+
+18
+00:00:45,391 --> 00:00:48,936
+&gt;&gt; Sim. Acho que o título do clássico livro de Edward Tufte,
+
+19
+00:00:48,936 --> 00:00:52,899
+The Visual Display of Quantitative Information, realmente chega ao
+
+20
+00:00:52,899 --> 00:00:56,630
+âmago do que muita gente pensa sobre a visualização de dados.
+
+21
+00:00:56,630 --> 00:01:01,690
+Simplesmente, como melhor representar visualmente alguns dados subjacentes usando coisas
+
+22
+00:01:01,690 --> 00:01:06,700
+como cor, tamanho e forma para transmitir algumas informações ou
+
+23
+00:01:06,700 --> 00:01:09,650
+uma ideia para seu público-alvo e para seu leitor.
+
+24
+00:01:09,650 --> 00:01:12,650
+E acredito que isso realmente vai um pouco além do que
+
+25
+00:01:12,650 --> 00:01:17,440
+incorporar elementos do ato de contar histórias e da narrativa, como Ryan mencionou,
+
+26
+00:01:17,440 --> 00:01:23,080
+deixar o autor da visualização de dados contar uma ideia interessante que
+
+27
+00:01:23,080 --> 00:01:27,140
+descobriu por conta própria e que deseja compartilhar com sua audiência.
+
+28
+00:01:27,140 --> 00:01:28,650
+&gt;&gt; Interessante. Obrigado por compartilharem isso conosco.

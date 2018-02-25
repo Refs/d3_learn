@@ -1,0 +1,75 @@
+1
+00:00:00,280 --> 00:00:02,160
+Aqui estão as respostas corretas.
+
+2
+00:00:02,160 --> 00:00:06,670
+Visitas ao médico por ano é um tipo de dados ordenado, expectativa de vida
+
+3
+00:00:06,670 --> 00:00:09,580
+e gastos por pessoa são tipos de dados quantitativos e
+
+4
+00:00:09,580 --> 00:00:13,020
+tem atendimento universal de saúde é um tipo de dados nominal.
+
+5
+00:00:13,020 --> 00:00:14,582
+Agora, entre essas quatro variáveis,
+
+6
+00:00:14,582 --> 00:00:17,860
+acredito que visitas ao médico por ano provavelmente foi a mais difícil de identificar.
+
+7
+00:00:17,860 --> 00:00:19,530
+Vamos ver por que.
+
+8
+00:00:19,530 --> 00:00:22,960
+O número médio de visitas ao médico por ano é representado pelo tamanho
+
+9
+00:00:22,960 --> 00:00:24,500
+destes círculos.
+
+10
+00:00:24,500 --> 00:00:28,450
+E se examinarmos com atenção, podemos ver que cada um destes círculos corresponde a
+
+11
+00:00:28,450 --> 00:00:29,000
+um intervalo.
+
+12
+00:00:30,290 --> 00:00:32,980
+Portanto, basicamente, utilizamos dados quantitativos e
+
+13
+00:00:32,980 --> 00:00:38,350
+os dividimos em compartimentos, o que torna este tipo de dados um tipo de dados ordenado.
+
+14
+00:00:38,350 --> 00:00:41,070
+A Média de expectativa de vida ao nascer e Gastos por
+
+15
+00:00:41,070 --> 00:00:45,740
+pessoa são tipos de dados quantitativos, exatamente como no gráfico que vimos antes.
+
+16
+00:00:45,740 --> 00:00:46,300
+E se um país tem ou
+
+17
+00:00:46,300 --> 00:00:49,630
+não seguro de saúde é realmente apenas um tipo de dados nominal.
+
+18
+00:00:49,630 --> 00:00:51,660
+Na verdade é uma pergunta de sim ou não.
+
+19
+00:00:51,660 --> 00:00:52,900
+Portanto, isso tem duas categorias

@@ -1,0 +1,67 @@
+1
+00:00:00,730 --> 00:00:03,890
+Agora você deve estar se perguntando qual é a diferença entre algo como
+
+2
+00:00:03,890 --> 00:00:07,210
+análise exploratória de dados e visualização de dados.
+
+3
+00:00:07,210 --> 00:00:10,990
+No diagrama anterior, tracei uma distinção bem grande entre as duas, mas
+
+4
+00:00:10,990 --> 00:00:14,730
+para alunos novatos em visualização, elas podem parecer bem similares.
+
+5
+00:00:14,730 --> 00:00:17,890
+Chris, como você descreveria a diferença entre EDA e
+
+6
+00:00:17,890 --> 00:00:19,760
+algo como a visualização de dados?
+
+7
+00:00:19,760 --> 00:00:23,660
+&gt;&gt; Bem, eu comparo isso com a diferença entre anotações e aula.
+
+8
+00:00:23,660 --> 00:00:26,720
+É uma conversa entre você e os dados,
+
+9
+00:00:26,720 --> 00:00:30,830
+enquanto que a visualização de dados é uma conversa entre os dados e seu público.
+
+10
+00:00:30,830 --> 00:00:32,350
+&gt;&gt; É, eu acho que Kathy O'Neil explica
+
+11
+00:00:32,350 --> 00:00:34,160
+muito bem isso no livro Doing Data Science.
+
+12
+00:00:34,160 --> 00:00:37,310
+Ela diz que EDA é o que acontece entre você e
+
+13
+00:00:37,310 --> 00:00:40,429
+seus dados quando você não está tentando provar nada para ninguém ainda.
+
+14
+00:00:41,610 --> 00:00:42,510
+Quando obtenho alguns dados,
+
+15
+00:00:42,510 --> 00:00:46,190
+a primeira coisa que faço é criar gráficos básicos, gráficos de dispersão,
+
+16
+00:00:46,190 --> 00:00:49,310
+histogramas e coisas do tipo, e é importante por vários motivos.
+
+17
+00:00:49,310 --> 00:00:49,940
+Vamos ver um deles agora.

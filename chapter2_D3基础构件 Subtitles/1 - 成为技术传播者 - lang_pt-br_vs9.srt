@@ -1,0 +1,51 @@
+1
+00:00:00,200 --> 00:00:05,930
+Nesta aula, usaremos o D3 para criar visualizações interativas de dados.
+
+2
+00:00:05,930 --> 00:00:12,700
+Como o D3 se baseia no HTML, CSS, JavaScript e SVG,
+
+3
+00:00:12,700 --> 00:00:16,258
+precisamos estar familiarizados com essas tecnologias antes de começar a usá-lo.
+
+4
+00:00:16,258 --> 00:00:19,630
+Embora não seja necessário conhecer essas tecnologias para
+
+5
+00:00:19,630 --> 00:00:23,980
+este curso, em grande parte do código e dos exercícios, assumimos que você
+
+6
+00:00:23,980 --> 00:00:27,330
+tem uma proficiência básica em cada uma dessas tecnologias.
+
+7
+00:00:27,330 --> 00:00:31,870
+Se você não estiver familiarizado com essas tecnologias, incluímos muitos
+
+8
+00:00:31,870 --> 00:00:36,770
+exercícios e tutoriais na parte de recursos do curso ou
+
+9
+00:00:36,770 --> 00:00:39,150
+nas notas do instrutor de cada vídeo.
+
+10
+00:00:39,150 --> 00:00:41,590
+Recomendo que você faça uma pausa agora e
+
+11
+00:00:41,590 --> 00:00:45,720
+vá para a seção de recursos deste curso para
+
+12
+00:00:45,720 --> 00:00:50,570
+entender o código que está sendo seguido ou, se desejar, depois desta lição,
+
+13
+00:00:50,570 --> 00:00:54,160
+para rever qualquer coisa que eu tenha abordado que não seja familiar para você.

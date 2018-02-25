@@ -1,0 +1,163 @@
+1
+00:00:00,140 --> 00:00:01,350
+Em termos de narrativas e
+
+2
+00:00:01,350 --> 00:00:05,460
+histórias, você tem algum exemplo de uma visualização onde, a seu ver, havia
+
+3
+00:00:05,460 --> 00:00:07,780
+uma grande história, onde algo incrível estava sendo contado?
+
+4
+00:00:07,780 --> 00:00:12,327
+&gt;&gt; Sim, um que me impressionou bastante recentemente foi
+
+5
+00:00:12,327 --> 00:00:16,180
+o gráfico de inclinação que aparece na capa do livro de Alberto Cairo.
+
+6
+00:00:18,200 --> 00:00:20,290
+Nele, à esquerda, temos representado graficamente
+
+7
+00:00:20,290 --> 00:00:26,490
+a porcentagem da população com maior escolaridade por estado.
+
+8
+00:00:26,490 --> 00:00:31,180
+Já, à direita, há a porcentagem de obesos, outra vez por estado.
+
+9
+00:00:31,180 --> 00:00:34,010
+E depois há um determinado estado conectado pela linha,
+
+10
+00:00:35,100 --> 00:00:40,690
+o que permite ver de forma relativamente rápida o tipo de ralação inversa aqui
+
+11
+00:00:40,690 --> 00:00:44,790
+em todos os estados azuis conhecidos e a relação positiva aqui nos estados vermelhos.
+
+12
+00:00:44,790 --> 00:00:48,180
+Também permite ver de maneira simples sem precisar de
+
+13
+00:00:48,180 --> 00:00:51,710
+muita explicação, compreender e
+
+14
+00:00:51,710 --> 00:00:55,810
+descobrir coisas interessantes, e novamente começar a formar essa história ou narrativa.
+
+15
+00:00:57,080 --> 00:00:59,890
+Na verdade, foi a primeira vez que me deparei com um gráfico de inclinação ou,
+
+16
+00:00:59,890 --> 00:01:02,760
+pelo menos, a primeira vez que um me impressionou.
+
+17
+00:01:02,760 --> 00:01:05,500
+Achei ele inspirador porque há muitos
+
+18
+00:01:05,500 --> 00:01:08,000
+casos de usos diferentes para gráficos como este,
+
+19
+00:01:08,000 --> 00:01:09,230
+o que eu não esperava,
+
+20
+00:01:09,230 --> 00:01:12,360
+porque só há dois pontos de dados sendo representados graficamente.
+
+21
+00:01:12,360 --> 00:01:13,020
+&gt;&gt; Sim, isso mesmo.
+
+22
+00:01:13,020 --> 00:01:16,110
+&gt;&gt; Uma forma é observar as coisas ao longo do tempo.
+
+23
+00:01:16,110 --> 00:01:18,230
+De novo, você pensa que apenas dois pontos de dados não é inspirador.
+
+24
+00:01:18,230 --> 00:01:20,190
+Mas, dependendo dos dados, pode ser.
+
+25
+00:01:20,190 --> 00:01:23,380
+Ou também a comparação dos grupos.
+
+26
+00:01:23,380 --> 00:01:26,830
+Por exemplo, aqui neste pequeno gráfico,
+
+27
+00:01:26,830 --> 00:01:30,460
+estou representando o feedback de uma pesquisa com funcionários.
+
+28
+00:01:30,460 --> 00:01:34,850
+À esquerda, temos a porcentagem favorável,
+
+29
+00:01:34,850 --> 00:01:38,190
+uma métrica de resumo da pesquisa para as empresas em geral.
+
+30
+00:01:38,190 --> 00:01:40,340
+E, à direita, para uma determinada equipe.
+
+31
+00:01:40,340 --> 00:01:44,210
+Esta pode ser a organização da engenharia, por exemplo.
+
+32
+00:01:44,210 --> 00:01:47,191
+Você pode ver de forma rápida um monte de coisas, entende?
+
+33
+00:01:47,191 --> 00:01:50,540
+&gt;&gt; Certo. &gt;&gt; Assim, na parte esquerda, há os valores absolutos.
+
+34
+00:01:50,540 --> 00:01:53,760
+Você tem a ordem hierárquica relativa das diferentes dimensões.
+
+35
+00:01:53,760 --> 00:01:56,390
+Essas coisas estão no lado direito também.
+
+36
+00:01:56,390 --> 00:02:00,720
+Por meio da inclinação destas linhas, é possível obter uma diferença percentual entre
+
+37
+00:02:00,720 --> 00:02:04,228
+os grupos sem a necessidade de explicar o que é uma diferença percentual.
+
+38
+00:02:04,228 --> 00:02:08,483
+Trata-se de uma forma realmente eficiente de comunicação para
+
+39
+00:02:08,483 --> 00:02:10,440
+a circunstância correta.
+
+40
+00:02:10,440 --> 00:02:11,770
+&gt;&gt; Sim, isso é ótimo.
+
+41
+00:02:11,770 --> 00:02:14,619
+Observando este gráfico, essa é uma das minhas principais conclusões.

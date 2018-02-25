@@ -1,0 +1,63 @@
+1
+00:00:00,510 --> 00:00:03,010
+Veja outro exemplo que vem da Copa do Mundo.
+
+2
+00:00:03,010 --> 00:00:06,860
+Eu gosto desta visualização em particular porque ela usa múltiplos pequenos.
+
+3
+00:00:06,860 --> 00:00:09,710
+Múltiplos pequenos levam vantagem do mesmo layout e
+
+4
+00:00:09,710 --> 00:00:13,190
+das codificações visuais de uma fatia dos dados até a próxima.
+
+5
+00:00:13,190 --> 00:00:16,040
+Isso permite que façamos comparações entre dados ou
+
+6
+00:00:16,040 --> 00:00:18,250
+entre diferentes visualizações de dados rapidamente.
+
+7
+00:00:18,250 --> 00:00:21,800
+Você pode encontrar um link para esta visualização nas Notas do instrutor.
+
+8
+00:00:21,800 --> 00:00:25,430
+Eu gostaria que você fizesse a mesma coisa com este gráfico como fez com o último.
+
+9
+00:00:25,430 --> 00:00:29,580
+Eu quero que você determine como as variáveis são codificadas na visualização.
+
+10
+00:00:29,580 --> 00:00:32,950
+As codificações deste gráfico são, de alguma forma, mais difíceis de decifrar
+
+11
+00:00:32,950 --> 00:00:36,680
+porque uma variável pode estar codificada em mais de uma codificação visual.
+
+12
+00:00:36,680 --> 00:00:39,860
+Configuramos o graduador para aceitar uma variedade de respostas, mas
+
+13
+00:00:39,860 --> 00:00:42,720
+quando você vai integrar sua resposta, eu apenas peço que você escolha
+
+14
+00:00:42,720 --> 00:00:46,950
+uma codificação visual, uma destas, para cada uma das variáveis.
+
+15
+00:00:46,950 --> 00:00:48,060
+Então, o que você acha?
+
+16
+00:00:48,060 --> 00:00:50,150
+Como essas variáveis estão visualmente codificadas?

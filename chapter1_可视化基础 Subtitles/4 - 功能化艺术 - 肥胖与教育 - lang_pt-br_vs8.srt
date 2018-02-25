@@ -1,0 +1,95 @@
+1
+00:00:00,400 --> 00:00:02,950
+Antes de mostrar a próxima parte de minha entrevista com Cole,
+
+2
+00:00:02,950 --> 00:00:06,110
+eu gostaria que você lesse uma postagem de blog que vamos discutir.
+
+3
+00:00:06,110 --> 00:00:08,700
+Você pode encontrar um link para essa postagem de blog nas notas do instrutor.
+
+4
+00:00:09,770 --> 00:00:12,000
+Essa postagem foi compartilhada por Andy Kriebel,
+
+5
+00:00:12,000 --> 00:00:15,100
+um guru em visualização de dados no Facebook.
+
+6
+00:00:15,100 --> 00:00:17,820
+Ele tem um blog interessante chamado VizWiz e
+
+7
+00:00:17,820 --> 00:00:21,040
+também uma citação realmente divertida em sua página principal.
+
+8
+00:00:21,040 --> 00:00:24,470
+Falaremos mais sobre porque isso é verdadeiro no final do curso, mas
+
+9
+00:00:24,470 --> 00:00:26,940
+eu só queria mostrar essa citação engraçada a você.
+
+10
+00:00:26,940 --> 00:00:28,390
+Por enquanto, o que eu quero que você faça
+
+11
+00:00:28,390 --> 00:00:32,180
+é ler cada uma destas abas clicando no botão Next.
+
+12
+00:00:32,180 --> 00:00:34,820
+Em cada um destes painéis, Alberto Cairo vai explicar
+
+13
+00:00:34,820 --> 00:00:38,540
+o processo de design para a criação de visualizações de dados.
+
+14
+00:00:38,540 --> 00:00:42,450
+Ele mostra como criou o gráfico para a capa de seu livro.
+
+15
+00:00:42,450 --> 00:00:45,280
+Na aba final, podemos ver realmente esse gráfico, e
+
+16
+00:00:45,280 --> 00:00:48,230
+eu realmente quero que você dedique algum tempo para brincar com o gráfico final ao
+
+17
+00:00:48,230 --> 00:00:52,120
+qual ele chega e, em seguida, responda a estas próximas perguntas.
+
+18
+00:00:52,120 --> 00:00:55,950
+Qual a porcentagem média de pessoas obesas em todos os estados?
+
+19
+00:00:55,950 --> 00:00:58,880
+Qual estado tem a maior porcentagem de sua população que
+
+20
+00:00:58,880 --> 00:01:01,270
+obteve um diploma de bacharel ou superior?
+
+21
+00:01:01,270 --> 00:01:03,280
+Insira a abreviação de duas letras desse estado aqui.
+
+22
+00:01:03,280 --> 00:01:09,210
+E, finalmente, mais estados têm um maioria de pessoas obesas ou
+
+23
+00:01:09,210 --> 00:01:10,540
+de pessoas instruídas?
+
+24
+00:01:10,540 --> 00:01:11,450
+Escolha uma destas alternativas.

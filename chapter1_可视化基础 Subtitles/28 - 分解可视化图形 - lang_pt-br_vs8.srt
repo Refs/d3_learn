@@ -1,0 +1,87 @@
+1
+00:00:00,390 --> 00:00:02,750
+Agora que você sabe o que são codificações visuais e
+
+2
+00:00:02,750 --> 00:00:07,310
+tipos de dados, encontre sua própria visualização para decompô-la.
+
+3
+00:00:07,310 --> 00:00:08,410
+É isso o que quero dizer.
+
+4
+00:00:08,410 --> 00:00:11,840
+Este gráfico mostra as medalhas de cada país durante as Olimpíadas de Verão.
+
+5
+00:00:11,840 --> 00:00:15,420
+Ele é um cartograma, no qual a geografia, ou a área de cada
+
+6
+00:00:15,420 --> 00:00:19,720
+país, foi distorcida pelo número de medalhas.
+
+7
+00:00:19,720 --> 00:00:24,034
+Bolhas maiores indicam um país que ganhou mais medalhas, como Rússia e
+
+8
+00:00:24,034 --> 00:00:28,270
+China, enquanto países menores ganharam menos medalhas, como Singapura.
+
+9
+00:00:28,270 --> 00:00:32,509
+Qualquer que seja a visualização de dados que você encontrar, indique
+
+10
+00:00:32,509 --> 00:00:37,020
+as variáveis, os tipos de dados, as codificações visuais e
+
+11
+00:00:37,020 --> 00:00:39,310
+até que ponto as codificações são eficazes.
+
+12
+00:00:39,310 --> 00:00:42,680
+Você pode encontrar oito exemplos no link nas Notas do instrutor.
+
+13
+00:00:42,680 --> 00:00:45,620
+Encontrei um gráfico diferente dos fornecidos aqui.
+
+14
+00:00:45,620 --> 00:00:47,960
+Queremos que você avance duas etapas.
+
+15
+00:00:47,960 --> 00:00:51,810
+Os exemplos aqui descrevem apenas as codificações das variáveis.
+
+16
+00:00:51,810 --> 00:00:54,720
+Identifique também os tipos de dados e
+
+17
+00:00:54,720 --> 00:00:57,180
+descreva a eficácia das codificações visuais.
+
+18
+00:00:57,180 --> 00:01:00,950
+Você acha que as analogias de exibição ajudam na interpretação da visualização
+
+19
+00:01:00,950 --> 00:01:03,020
+ou distraem a visualização?
+
+20
+00:01:03,020 --> 00:01:06,970
+Encontre uma visualização e responda a essas perguntas.
+
+21
+00:01:06,970 --> 00:01:10,250
+Depois de publicar um link ou uma imagem da visualização com sua resposta
+
+22
+00:01:10,250 --> 00:01:12,900
+no thread de discussão, marque esta caixa para continuar.

@@ -1,0 +1,115 @@
+1
+00:00:00,540 --> 00:00:03,980
+Oi. Mais uma vez, estou aqui com Jonathan e Ryan da Zipfian Academy.
+
+2
+00:00:03,980 --> 00:00:06,640
+E realmente quero dar um passo atrás antes de entrarmos
+
+3
+00:00:06,640 --> 00:00:08,530
+em mais detalhes sobre a visualização de dados.
+
+4
+00:00:08,530 --> 00:00:12,820
+Eu realmente quero ouvir os insights de vocês sobre a formação dos
+
+5
+00:00:12,820 --> 00:00:17,700
+alunos e sobre o que é preciso para ter êxito na criação de visualizações de dados.
+
+6
+00:00:17,700 --> 00:00:19,190
+Então, para você, Jonathan,
+
+7
+00:00:19,190 --> 00:00:23,840
+o que você quer que os alunos saibam agora, após sua passagem pela Zipfian?
+
+8
+00:00:23,840 --> 00:00:25,530
+&gt;&gt; Essa é uma boa pergunta, Chris.
+
+9
+00:00:25,530 --> 00:00:30,230
+Vendo tanto alunos trabalhando em diferentes projetos aqui na Zipfian, todos com
+
+10
+00:00:30,230 --> 00:00:34,040
+diferentes formações, eu diria que o que percebo nos alunos
+
+11
+00:00:34,040 --> 00:00:38,530
+que mais me preocupa é que eles se concentram muito em algumas análises complexas ou
+
+12
+00:00:38,530 --> 00:00:43,200
+em otimizar um modelo sem pensar no projeto maior como um todo.
+
+13
+00:00:43,200 --> 00:00:47,700
+Eu sempre gosto de dizer aos meus alunos que os melhores insights deles só são bons
+
+14
+00:00:47,700 --> 00:00:49,790
+se eles puderem ser comunicados.
+
+15
+00:00:49,790 --> 00:00:55,660
+Logo, se você passar semanas otimizando um modelo para que ele seja 99,9% preciso,
+
+16
+00:00:55,660 --> 00:01:00,230
+mas não pensar em como ele pode ser útil ou valioso para alguém,
+
+17
+00:01:00,230 --> 00:01:01,670
+ele é basicamente inútil.
+
+18
+00:01:01,670 --> 00:01:02,290
+&gt;&gt; Que interessante.
+
+19
+00:01:03,330 --> 00:01:07,620
+E para você, Bryan? O que você acha que os alunos precisam saber para
+
+20
+00:01:07,620 --> 00:01:11,960
+terem êxito na criação de visualizações de dados?
+
+21
+00:01:11,960 --> 00:01:14,900
+&gt;&gt; Eu acho que a visualização de dados é realmente interessante porque é
+
+22
+00:01:14,900 --> 00:01:16,770
+uma arte e uma ciência.
+
+23
+00:01:16,770 --> 00:01:20,430
+Logo, os alunos não precisam saber só código, como trabalhar com bibliotecas e
+
+24
+00:01:20,430 --> 00:01:23,560
+como explorar os dados, mas também precisam ter um bom senso de design
+
+25
+00:01:23,560 --> 00:01:28,110
+visual e saber contar histórias, de modo a criar algo que envolva o público.
+
+26
+00:01:28,110 --> 00:01:31,490
+Agora, cobriremos os aspectos do curso, para que os alunos realmente
+
+27
+00:01:31,490 --> 00:01:34,380
+pensem criticamente sobre as visualizações que criam.
+
+28
+00:01:34,380 --> 00:01:35,020
+&gt;&gt; Excelente.
+
+29
+00:01:35,020 --> 00:01:35,790
+Muito obrigado, pessoal.

@@ -1,0 +1,251 @@
+1
+00:00:00,530 --> 00:00:04,080
+Você já aprendeu bastante sobre codificação e percepção visual.
+
+2
+00:00:04,080 --> 00:00:07,360
+Agora, veja o Johnathan analisar um gráfico muito complexo
+
+3
+00:00:07,360 --> 00:00:08,880
+do The New York Times.
+
+4
+00:00:08,880 --> 00:00:09,910
+&gt;&gt; Obrigado, Chris.
+
+5
+00:00:09,910 --> 00:00:12,600
+A visualização na qual vou focar vem do
+
+6
+00:00:12,600 --> 00:00:17,600
+The New York Times, e foi criada por Jeremy Eskinouse, Matthew Block,
+
+7
+00:00:17,600 --> 00:00:20,020
+Shan Carter e Amanda Cox.
+
+8
+00:00:20,020 --> 00:00:23,190
+Toda essa visualização foi criada em D3 e
+
+9
+00:00:23,190 --> 00:00:27,220
+pode ser encontrada na URL do meu navegador, aqui em cima.
+
+10
+00:00:27,220 --> 00:00:31,680
+Tudo o que precisa para mexer com gráficos é um navegador da Web moderno.
+
+11
+00:00:31,680 --> 00:00:35,630
+Sugiro que você vá para a página para brincar com o gráfico interativo.
+
+12
+00:00:35,630 --> 00:00:38,430
+Vou explicar algumas codificações visuais e
+
+13
+00:00:38,430 --> 00:00:42,410
+elementos do porquê acho essa visualização muito eficiente, mas
+
+14
+00:00:42,410 --> 00:00:46,270
+você só poderá entender mesmo quando experimentar por si só.
+
+15
+00:00:46,270 --> 00:00:49,690
+É possível ver que, ao passar o mouse em cada círculo,
+
+16
+00:00:49,690 --> 00:00:53,420
+você obterá mais informações sobre cada empresa.
+
+17
+00:00:53,420 --> 00:00:57,630
+Aqui, no topo, há abas para seguir com a animação e
+
+18
+00:00:57,630 --> 00:01:00,040
+a narrativa desta visualização.
+
+19
+00:01:00,040 --> 00:01:04,379
+Uma das formas mais rápidas, fáceis e claras de se comunicar com seu
+
+20
+00:01:04,379 --> 00:01:08,460
+leitor e público é através do uso eficiente de um título.
+
+21
+00:01:08,460 --> 00:01:12,900
+Como dá para ver, a visualização está tentando, obviamente,
+
+22
+00:01:12,900 --> 00:01:17,260
+informar como o IPO do Facebook se compara aos IPOs de
+
+23
+00:01:17,260 --> 00:01:21,690
+todas as outras empresas de tecnologia recentes ou não.
+
+24
+00:01:21,690 --> 00:01:27,080
+Em relação às codificações visuais que falamos, esta aqui usa tamanho,
+
+25
+00:01:27,080 --> 00:01:32,780
+formato, posição x e y e cor para codificar suas informações.
+
+26
+00:01:32,780 --> 00:01:37,040
+Apesar de esta visualização usar 5 codificações visuais para transmitir suas
+
+27
+00:01:37,040 --> 00:01:41,340
+informações e dados, nem todas elas são iguais.
+
+28
+00:01:41,340 --> 00:01:44,100
+Duas delas codificam as mesmas informações e
+
+29
+00:01:44,100 --> 00:01:47,680
+são comumente conhecidas em visualizações como codificação dupla.
+
+30
+00:01:47,680 --> 00:01:52,700
+Neste caso, o eixo y, que representa o valor da empresa,
+
+31
+00:01:52,700 --> 00:01:56,130
+está codificado na coordenada y ou
+
+32
+00:01:56,130 --> 00:02:01,420
+posição y do círculo, e também no tamanho ou raio do círculo.
+
+33
+00:02:01,420 --> 00:02:02,800
+Quanto maior o valor de uma empresa,
+
+34
+00:02:02,800 --> 00:02:08,000
+maior será o seu círculo e mais alta será sua posição no eixo y.
+
+35
+00:02:08,000 --> 00:02:11,360
+Esta codificação dupla do valor da empresa
+
+36
+00:02:11,360 --> 00:02:16,010
+realmente enfatiza sua importância nesta visualização, já que,
+
+37
+00:02:16,010 --> 00:02:20,540
+como o Chris acabou de dizer, codificações de posição são as mais precisas.
+
+38
+00:02:20,540 --> 00:02:26,630
+Além disso, neste caso, o eixo x ou posição x codifica o ano do IPO
+
+39
+00:02:26,630 --> 00:02:32,050
+e a cor, no canto esquerdo, é codificada pelo tom de vermelho.
+
+40
+00:02:32,050 --> 00:02:35,310
+Já na extrema direita, ficam os azuis mais fortes.
+
+41
+00:02:35,310 --> 00:02:37,480
+Então, neste caso, tanto cor
+
+42
+00:02:37,480 --> 00:02:42,080
+quanto posição x codificam o ano em que a empresa recebeu ofertas públicas.
+
+43
+00:02:42,080 --> 00:02:43,520
+Nesta visualização,
+
+44
+00:02:43,520 --> 00:02:48,540
+o formato não codifica nenhuma informação concreta, pois só há círculos.
+
+45
+00:02:48,540 --> 00:02:52,680
+Como é sempre necessário escolher um formato para um gráfico de bolhas, como este, um círculo
+
+46
+00:02:52,680 --> 00:02:56,750
+é um formato neutro, enquanto não houver outros formatos em conjunção.
+
+47
+00:02:56,750 --> 00:03:00,870
+Mas, se houvesse círculos, quadrados e triângulos,
+
+48
+00:03:00,870 --> 00:03:05,140
+cada um deles codificaria um tipo diferente de empresa, talvez pelo setor, mas,
+
+49
+00:03:05,140 --> 00:03:08,260
+neste caso, havendo apenas círculos,
+
+50
+00:03:08,260 --> 00:03:12,180
+o formato não codifica informações muito concretas ou valiosas.
+
+51
+00:03:12,180 --> 00:03:14,960
+A quinta codificação que ainda não cobrimos explicitamente
+
+52
+00:03:14,960 --> 00:03:18,780
+nem sempre é vista formalmente como codificação visual: a opacidade.
+
+53
+00:03:18,780 --> 00:03:21,260
+Opacidade é muito parecida com saturação de cores ou
+
+54
+00:03:21,260 --> 00:03:25,460
+densidade, como já falamos, mas não é igual.
+
+55
+00:03:25,460 --> 00:03:30,030
+A opacidade, neste caso, refere-se à transparência de cada círculo.
+
+56
+00:03:30,030 --> 00:03:34,490
+E, mesmo que a opacidade não nos informe nada sobre os pontos de dados,
+
+57
+00:03:34,490 --> 00:03:38,290
+no nosso caso, ela nos permite ver a distribuição relativa dos
+
+58
+00:03:38,290 --> 00:03:40,660
+pontos de dados e como eles se sobrepõem.
+
+59
+00:03:40,660 --> 00:03:45,410
+Já que tantas empresas aparentemente receberam ofertas públicas no ano 2000,
+
+60
+00:03:45,410 --> 00:03:49,310
+todas tinham um valor de empresa baixo na época.
+
+61
+00:03:49,310 --> 00:03:53,930
+É possível ver um roxo escuro bem denso, mas perceba que, quando subimos,
+
+62
+00:03:53,930 --> 00:03:57,300
+há alguns círculos em que se vê a sobreposição e
+
+63
+00:03:57,300 --> 00:04:00,210
+alguns círculos que ficam afastados, sem sobreposição.

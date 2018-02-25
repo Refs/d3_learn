@@ -1,0 +1,59 @@
+1
+00:00:00,190 --> 00:00:04,760
+Essas duas últimas partes de código adicionam os elementos visuais na página.
+
+2
+00:00:04,760 --> 00:00:09,470
+Observe aqui que bar é um grupo de tags g com
+
+3
+00:00:09,470 --> 00:00:10,660
+alguma transformação.
+
+4
+00:00:10,660 --> 00:00:14,160
+Não colocamos nenhum retângulo na página nem
+
+5
+00:00:14,160 --> 00:00:16,280
+legendas neles.
+
+6
+00:00:16,280 --> 00:00:19,480
+Mas, como o D3 tem uma sintaxe em cadeia legal
+
+7
+00:00:19,480 --> 00:00:24,710
+e qualquer chamada para incluir coloca elementos no elemento append
+
+8
+00:00:24,710 --> 00:00:26,890
+chamado, neste caso, bar,
+
+9
+00:00:26,890 --> 00:00:31,100
+podemos incluir ângulos diretos dentro das tags do grupo.
+
+10
+00:00:31,100 --> 00:00:35,640
+Essa última parte do código adiciona uma legenda de texto que corresponde ao
+
+11
+00:00:35,640 --> 00:00:37,130
+valor do ponto de dados.
+
+12
+00:00:37,130 --> 00:00:41,030
+Isso era tudo o que eu queria abordar do alto nível deste código.
+
+13
+00:00:41,030 --> 00:00:44,470
+Também queria expor algumas funções e métodos D3
+
+14
+00:00:44,470 --> 00:00:47,060
+que ainda não vimos
+
+15
+00:00:47,060 --> 00:00:50,710
+e como aplicá-los nos dados carregados de um arquivo externo.

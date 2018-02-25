@@ -1,0 +1,163 @@
+1
+00:00:00,260 --> 00:00:03,430
+A mágica do d3 ocorre nos próximos três blocos de códigos
+
+2
+00:00:03,430 --> 00:00:05,350
+a seguir.
+
+3
+00:00:05,350 --> 00:00:10,970
+Este primeiro bloco vincula nossos dados aos nossos elementos SVG.
+
+4
+00:00:10,970 --> 00:00:13,640
+Esta é uma das partes mais confusas do d3,
+
+5
+00:00:13,640 --> 00:00:16,090
+para os recém-chegados à biblioteca.
+
+6
+00:00:16,090 --> 00:00:19,480
+Primeiro acessamos o elemento do gráfico SVG.
+
+7
+00:00:19,480 --> 00:00:23,270
+Localizamos cada tag do grupo que possa estar lá.
+
+8
+00:00:23,270 --> 00:00:28,150
+E a tag do grupo pode ser imaginada como análoga à tag div no HTML.
+
+9
+00:00:28,150 --> 00:00:31,160
+Ela não tem exibição visual, mas serve para agrupar e
+
+10
+00:00:31,160 --> 00:00:34,310
+organizar o conteúdo que pode estar contido nela.
+
+11
+00:00:34,310 --> 00:00:39,100
+Vamos vincular os dados, passar os dados que nossa função draw recebe
+
+12
+00:00:39,100 --> 00:00:43,425
+para a função .data, que a vincula aos grupos.
+
+13
+00:00:43,425 --> 00:00:48,810
+.enter, realmente retorna uma subseleção de chamadas para .data,
+
+14
+00:00:48,810 --> 00:00:54,320
+que representa cada dado que ainda não foi colocado na página.
+
+15
+00:00:54,320 --> 00:00:57,170
+Neste caso, na primeira chamada para .data,
+
+16
+00:00:57,170 --> 00:01:01,932
+não há elementos na página que vincularam os dados a eles.
+
+17
+00:01:01,932 --> 00:01:07,122
+Portanto, .enter contém um elemento para cada ponto em nossos dados.
+
+18
+00:01:07,122 --> 00:01:11,700
+.append g instrui o navegador que para
+
+19
+00:01:11,700 --> 00:01:17,960
+cada ponto na seleção de .enter, acrescente o elemento g ao gráfico.
+
+20
+00:01:17,960 --> 00:01:22,570
+E para cada um desses elementos do grupo, queremos transformá-los, de acordo com
+
+21
+00:01:22,570 --> 00:01:23,790
+esta função.
+
+22
+00:01:23,790 --> 00:01:27,600
+Agora há muita coisa acontecendo e quero desvendar um pouco mais, mas
+
+23
+00:01:27,600 --> 00:01:32,210
+vamos obter muito mais detalhes do que está acontecendo com .data e
+
+24
+00:01:32,210 --> 00:01:34,690
+.enter nas próximas lições e
+
+25
+00:01:34,690 --> 00:01:40,230
+também aprender sobre outros tipos de seleções que não são necessariamente .enter.
+
+26
+00:01:40,230 --> 00:01:45,860
+De um nível muito alto, este código basicamente diz, verifique meu SVG.
+
+27
+00:01:45,860 --> 00:01:49,020
+Localize as tags g lá.
+
+28
+00:01:49,020 --> 00:01:53,760
+Se houver tags g com zero, o selectAll será uma seleção vazia.
+
+29
+00:01:53,760 --> 00:01:56,230
+Anexe os dados à nossa seleção.
+
+30
+00:01:56,230 --> 00:01:59,590
+Um .enter, basicamente diz que, para cada ponto que estiver em nossos
+
+31
+00:01:59,590 --> 00:02:04,630
+dados que não há elemento correspondente na seleção inicial.
+
+32
+00:02:04,630 --> 00:02:05,590
+Neste caso,
+
+33
+00:02:05,590 --> 00:02:10,275
+considerando que nossa seleção inicial estava vazia porque não havia nenhuma tag g ainda.
+
+34
+00:02:10,275 --> 00:02:16,055
+.enter, novamente, contém um elemento para cada ponto em nossos dados.
+
+35
+00:02:16,055 --> 00:02:18,730
+.append instrui D3 e
+
+36
+00:02:18,730 --> 00:02:24,390
+para cada um desses novos elementos do grupo, altera o atributo transform.
+
+37
+00:02:24,390 --> 00:02:30,440
+Que é exclusivo para SVG, de acordo com o que é retornado desta função.
+
+38
+00:02:30,440 --> 00:02:35,150
+Novamente, se isso não ficou claro, teremos mais detalhes e
+
+39
+00:02:35,150 --> 00:02:37,170
+especificações nas próximas lições.
+
+40
+00:02:37,170 --> 00:02:39,630
+Queria apenas mostrar a vocês como isso se parece e
+
+41
+00:02:39,630 --> 00:02:41,930
+como criar um gráfico de dados direcionado.

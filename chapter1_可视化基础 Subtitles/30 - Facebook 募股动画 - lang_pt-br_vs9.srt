@@ -1,0 +1,67 @@
+1
+00:00:00,360 --> 00:00:04,970
+O último recurso desta visualização do qual quero falar é a animação.
+
+2
+00:00:04,970 --> 00:00:08,310
+Animação não é tecnicamente uma codificação visual,
+
+3
+00:00:08,310 --> 00:00:11,550
+mas você pode considerá-la como codificação de informação ou
+
+4
+00:00:11,550 --> 00:00:14,790
+mudança de informação de alguma forma.
+
+5
+00:00:14,790 --> 00:00:16,450
+Como podemos ver aqui,
+
+6
+00:00:16,450 --> 00:00:22,360
+a animação realmente realça como o Facebook IPO era drasticamente
+
+7
+00:00:22,360 --> 00:00:26,580
+diferente em valor, comparado ao histórico de IPOs anteriores.
+
+8
+00:00:27,700 --> 00:00:32,729
+Não só a animação expressa parte do processo pelo qual o RS passou na
+
+9
+00:00:32,729 --> 00:00:38,370
+criação dessa visualização, como a descoberta de que o Facebook IPO era drasticamente
+
+10
+00:00:38,370 --> 00:00:42,630
+maior que todos os outros IPOs,
+
+11
+00:00:42,630 --> 00:00:47,380
+ou o fato de que usar escala diferente, neste caso logarítmico,
+
+12
+00:00:47,380 --> 00:00:52,450
+torna o gráfico muito mais interpretável, mas ela também passa
+
+13
+00:00:52,450 --> 00:00:57,240
+por parte da mudança relativa das empresas nos anos depois de passarem pelo IPO.
+
+14
+00:00:57,240 --> 00:01:02,435
+Embora você possa codificar esse tipo de informação, por exemplo, quanto
+
+15
+00:01:02,435 --> 00:01:07,560
+do valor de uma empresa mudou após seu IPO, em outra dimensão da codificação
+
+16
+00:01:07,560 --> 00:01:13,310
+visual, digamos o eixo z, é muito mais fácil, e acho
+
+17
+00:01:13,310 --> 00:01:17,580
+muito mais eficiente, comunicar essa informação por meio da animação.

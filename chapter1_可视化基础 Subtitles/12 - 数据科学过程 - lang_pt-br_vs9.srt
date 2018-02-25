@@ -1,0 +1,39 @@
+1
+00:00:00,560 --> 00:00:03,140
+Nada ocorre em um vácuo. Nem mesmo esta aula.
+
+2
+00:00:03,140 --> 00:00:07,090
+Embora muitos de vocês possam estar fazendo este curso porque estão interessados em
+
+3
+00:00:07,090 --> 00:00:12,430
+teoria e prática de visualização de dados usando ferramentas de código aberto como D3,
+
+4
+00:00:12,430 --> 00:00:17,210
+esta aula na verdade faz parte de um curso de ciência de dados muito maior na Udacity.
+
+5
+00:00:17,210 --> 00:00:21,520
+O que mostrei aqui é um gráfico da tese de PhD de Ben Fry,
+
+6
+00:00:21,520 --> 00:00:24,010
+"Computational Information Design".
+
+7
+00:00:24,010 --> 00:00:28,070
+Nela, ele descreve o processo maior por trás de visualizações de dados,
+
+8
+00:00:28,070 --> 00:00:31,330
+incluindo obtenção, transformação e
+
+9
+00:00:31,330 --> 00:00:36,200
+eventualmente visualização de dados para a criação de gráficos envolventes e eficazes.
+
+10
+00:00:36,200 --> 00:00:40,330
+Esse processo como um todo mapeia muito bem o processo de ciência de dados como um todo.

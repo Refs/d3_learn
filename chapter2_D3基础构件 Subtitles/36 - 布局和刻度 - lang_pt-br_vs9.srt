@@ -1,0 +1,223 @@
+1
+00:00:00,390 --> 00:00:06,060
+Não quero focalizar o código CSS acima ou o carregamento de dados abaixo.
+
+2
+00:00:06,060 --> 00:00:09,980
+Para este exemplo, quero focalizar apenas a função draw.
+
+3
+00:00:09,980 --> 00:00:13,400
+Se você estiver curioso sobre o que exatamente as
+
+4
+00:00:13,400 --> 00:00:16,870
+funções CSS ou de carregamento de dados estavam fazendo, sugiro ler
+
+5
+00:00:16,870 --> 00:00:20,990
+todo o tutorial de Mike Bostock para o qual há um link nas notas do instrutor.
+
+6
+00:00:22,050 --> 00:00:26,950
+Já vimos muitas das funções que Mike usa nesse tutorial.
+
+7
+00:00:26,950 --> 00:00:34,780
+Temos scales e range, select e attributes, um domain e também .text.
+
+8
+00:00:34,780 --> 00:00:39,870
+As duas primeiras linhas definem a largura do gráfico e a altura das barras.
+
+9
+00:00:39,870 --> 00:00:44,640
+Um segundo bloco de código aqui cria uma escala linear e
+
+10
+00:00:44,640 --> 00:00:48,460
+define o range como zero para a largura de nosso gráfico.
+
+11
+00:00:48,460 --> 00:00:52,850
+Se você pensar nesses valores de zero e width, isso faz muito sentido.
+
+12
+00:00:52,850 --> 00:00:58,330
+Não queremos que nenhum de nossos pontos de dados seja colocado depois
+
+13
+00:00:58,330 --> 00:00:59,880
+de zero em nosso gráfico ou na região negativa.
+
+14
+00:00:59,880 --> 00:01:03,250
+Nem queremos que qualquer ponto de dados se estenda além da
+
+15
+00:01:03,250 --> 00:01:05,269
+borda direita de nosso gráfico.
+
+16
+00:01:05,269 --> 00:01:09,480
+Uma sutileza deste código aqui é que, embora eu o tenha rotulado
+
+17
+00:01:09,480 --> 00:01:13,990
+como a escala do eixo x, e embora a variável de armazenamento seja x,
+
+18
+00:01:13,990 --> 00:01:20,220
+não há nada específico a este código ou às suas funções que o defina como o eixo x.
+
+19
+00:01:20,220 --> 00:01:25,360
+No entanto, veremos mais tarde que a maneira como o usamos cria valores x.
+
+20
+00:01:25,360 --> 00:01:30,720
+O terceiro grupo de código define a largura em nosso elemento gráfico SVG.
+
+21
+00:01:30,720 --> 00:01:35,740
+Se você se lembrar, nós fixamos no código no HTML um elemento SVG que
+
+22
+00:01:35,740 --> 00:01:37,350
+tinha a classe chart.
+
+23
+00:01:37,350 --> 00:01:41,180
+Portanto, aqui, estamos selecionando este gráfico com d3.select e
+
+24
+00:01:41,180 --> 00:01:44,810
+alterando o atributo width para a variável width.
+
+25
+00:01:44,810 --> 00:01:46,770
+Neste caso, 420.
+
+26
+00:01:46,770 --> 00:01:52,300
+Lembre-se de que este código corresponde às barras azuis que mostrei anteriormente,
+
+27
+00:01:52,300 --> 00:01:56,880
+e que as barras azuis se estendiam da esquerda para a direita horizontalmente de acordo com
+
+28
+00:01:56,880 --> 00:01:58,670
+o valor dos dados.
+
+29
+00:01:58,670 --> 00:02:03,530
+Na linha 28 aqui, a chamada para o método domain em X
+
+30
+00:02:03,530 --> 00:02:05,800
+tem muitas coisas acontecendo com ela.
+
+31
+00:02:05,800 --> 00:02:10,030
+Em primeiro lugar, X foi criado aqui como uma escala linear.
+
+32
+00:02:10,030 --> 00:02:15,100
+No entanto, lembre-se do que eu disse anteriormente sobre a sintaxe encadeada do d3.
+
+33
+00:02:15,100 --> 00:02:22,580
+Embora d3.scale.linear.range seja uma chamada de método, ele retorna o objeto scale.
+
+34
+00:02:22,580 --> 00:02:26,760
+Portanto x, é realmente um scale e não um range.
+
+35
+00:02:26,760 --> 00:02:32,760
+Portanto, esta chamada aqui está realmente chamando o domain na escala de x.
+
+36
+00:02:32,760 --> 00:02:38,620
+O domínio de nossos dados representa o mínimo e o máximo de nossos valores de dados.
+
+37
+00:02:38,620 --> 00:02:42,800
+Você pode ver aqui que nós simplesmente fixamos um valor
+
+38
+00:02:42,800 --> 00:02:44,960
+de 0 no código como o mínimo de nosso domínio.
+
+39
+00:02:44,960 --> 00:02:49,440
+A função d3.max utiliza nossos dados como o primeiro argumento e
+
+40
+00:02:49,440 --> 00:02:53,510
+uma função para chamar esses dados como um segundo argumento.
+
+41
+00:02:53,510 --> 00:02:57,080
+Observe aqui que a função utiliza um único argumento, d.
+
+42
+00:02:57,080 --> 00:03:01,770
+O que é passado para esta função é realmente cada dado, portanto, uma única
+
+43
+00:03:01,770 --> 00:03:07,500
+parte dos dados de nosso array de dados, e a função é executada uma vez para cada uma.
+
+44
+00:03:07,500 --> 00:03:09,420
+Portanto, dentro desta função,
+
+45
+00:03:09,420 --> 00:03:14,910
+d realmente corresponde a um único ponto de dados e nós obtemos seu valor.
+
+46
+00:03:14,910 --> 00:03:17,990
+O motivo pelo qual precisamos passar uma função é que o d3,
+
+47
+00:03:17,990 --> 00:03:21,230
+sendo a biblioteca controlada por dados que é,
+
+48
+00:03:21,230 --> 00:03:26,100
+poderia ter diferentes maneiras de definir o máximo do domínio para um dado específico.
+
+49
+00:03:26,100 --> 00:03:31,440
+Portanto esta função, passada como um segundo argumento, permite que uma função max generalizada
+
+50
+00:03:31,440 --> 00:03:35,480
+funcione independentemente da aparência de seus dados ou de qual é a estrutura.
+
+51
+00:03:35,480 --> 00:03:40,210
+Dentro desta função, você simplesmente precisa retornar qualquer que seja o valor de cada
+
+52
+00:03:40,210 --> 00:03:45,980
+ponto de dados que você quer usar como o valor a ser comparado no cálculo de max.
+
+53
+00:03:45,980 --> 00:03:52,030
+Observe também que não armazenamos o valor de retorno de x.domain em nenhuma variável.
+
+54
+00:03:52,030 --> 00:03:54,680
+Isso é porque o domain e o
+
+55
+00:03:54,680 --> 00:03:58,550
+range mudam o estado interno do objeto scale
+
+56
+00:03:58,550 --> 00:04:03,150
+definindo algumas propriedades no próprio objeto em vez de retornar um valor.

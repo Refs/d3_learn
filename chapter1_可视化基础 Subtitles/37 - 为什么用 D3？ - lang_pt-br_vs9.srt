@@ -1,0 +1,99 @@
+1
+00:00:00,360 --> 00:00:04,939
+Agora iremos mergulhar em algumas das especificidades do funcionamento do D3, e
+
+2
+00:00:04,939 --> 00:00:09,900
+por que ele vem se tornando a ferramenta preferencial para qualquer um que deseja visualizar dados.
+
+3
+00:00:09,900 --> 00:00:14,180
+Em vez de ocultar o modelo de objeto de documento,
+
+4
+00:00:14,180 --> 00:00:19,090
+o D3 o adota por meio da manipulação direta de modos HTML e
+
+5
+00:00:19,090 --> 00:00:23,760
+objetos SVG, por meio de convenções comuns como seletores CSS.
+
+6
+00:00:23,760 --> 00:00:28,930
+Fazendo isso, o D3 habilita muito mais visualizações expressivas e
+
+7
+00:00:28,930 --> 00:00:32,350
+permite que os designers interajam de maneira direta com os desenvolvedores,
+
+8
+00:00:32,350 --> 00:00:37,140
+separando o estilo de uma visualização de seus mecanismos.
+
+9
+00:00:37,140 --> 00:00:43,540
+As visualizações D3, como elas operam diretamente no HTML por meio de DOM e SVG,
+
+10
+00:00:43,540 --> 00:00:48,600
+podem ser estilizadas da mesma exata forma que qualquer outra página da Web, como no caso do CSS.
+
+11
+00:00:48,600 --> 00:00:54,650
+E o código D3 pode, na verdade, manipular documentos já criados e em HTML.
+
+12
+00:00:54,650 --> 00:00:58,040
+Veremos um exemplo disto quando chegarmos à porção de código vivo desta
+
+13
+00:00:58,040 --> 00:01:01,660
+lição, e realmente manipularmos esta página da Web e
+
+14
+00:01:01,660 --> 00:01:04,110
+alterarmos alguns dos estilos e elementos.
+
+15
+00:01:04,110 --> 00:01:10,200
+Um exemplo de aproveitamento deste recurso pode ser renderizar previamente HTML e objetos SVG
+
+16
+00:01:10,200 --> 00:01:15,440
+para obter uma visualização complexa no lado do servidor, e simplesmente usar JavaScript
+
+17
+00:01:15,440 --> 00:01:19,880
+para qualquer tipo de interação ou dinâmica que precisemos do lado do cliente.
+
+18
+00:01:19,880 --> 00:01:24,500
+Se tiver as bibliotecas criadas em cima do D3, na verdade faça exatamente isso, e
+
+19
+00:01:24,500 --> 00:01:30,180
+você poderá renderizar objetos D3 para imagens estáticas ou JSON no lado do servidor.
+
+20
+00:01:30,180 --> 00:01:33,840
+O último benefício que irei mencionar, apesar de haver mais alguns, é que,
+
+21
+00:01:33,840 --> 00:01:39,330
+como as visualizações D3 operam no DOM e no HTML diretamente, elas podem aproveitar
+
+22
+00:01:39,330 --> 00:01:44,030
+todas as melhorias e avanços da Web aberta, como melhorias de navegador,
+
+23
+00:01:44,030 --> 00:01:48,170
+aumento da velocidade do JavaScript e padrões mais recentes, como HTML5.
+
+24
+00:01:49,460 --> 00:01:54,650
+E além disso, os desenvolvedores podem usar todas suas ferramentas familiares para trabalhar com o D3.
+
+25
+00:01:54,650 --> 00:01:58,460
+Como depuradores, editores de texto, bibliotecas existentes.

@@ -1,0 +1,59 @@
+1
+00:00:00,590 --> 00:00:01,900
+Obrigado, Ryan.
+
+2
+00:00:01,900 --> 00:00:06,810
+Para análises exploratórias, como esses gráficos, claramente vemos os padrões
+
+3
+00:00:06,810 --> 00:00:12,062
+ou desvios nos dados, que podemos deixar passar em uma tabela ou estatísticas de resumo.
+
+4
+00:00:12,062 --> 00:00:14,290
+Mas há um motivo ainda mais importante para
+
+5
+00:00:14,290 --> 00:00:16,880
+criar gráficos como estes.
+
+6
+00:00:16,880 --> 00:00:21,166
+O segredo está no imenso poder do nosso sistema de processamento visual.
+
+7
+00:00:21,166 --> 00:00:24,680
+O físico dinamarquês Tor Norretrander converteu a largura de banda
+
+8
+00:00:24,680 --> 00:00:29,230
+dos nossos sentidos em termos de computador para entendermos esse poder.
+
+9
+00:00:29,230 --> 00:00:30,510
+Nesta visualização,
+
+10
+00:00:30,510 --> 00:00:33,940
+a visão ocupa grande parte da estrutura aqui.
+
+11
+00:00:33,940 --> 00:00:37,590
+Na verdade, diz-se que a visão pode processar informações na velocidade
+
+12
+00:00:37,590 --> 00:00:40,710
+de redes de computador ou um cabo Ethernet.
+
+13
+00:00:40,710 --> 00:00:43,930
+O paladar tem a largura de banda de uma calculadora.
+
+14
+00:00:43,930 --> 00:00:48,900
+E a pequena caixa branca no canto da estrutura é apenas 0,7% da área
+
+15
+00:00:48,900 --> 00:00:52,600
+e é nossa percepção de todo esse processamento.

@@ -1,0 +1,359 @@
+1
+00:00:00,540 --> 00:00:05,490
+Eu gostaria de pegar um pequeno desvio para cobrir rapidamente como a Web funciona.
+
+2
+00:00:05,490 --> 00:00:09,070
+O que exatamente acontece quando você digita uma URL em um navegador e
+
+3
+00:00:09,070 --> 00:00:11,300
+por que tudo isso importa se você quiser usar o D3.
+
+4
+00:00:12,810 --> 00:00:18,320
+Até agora mostramos o D3 por meio de nosso console de navegador da Web, e
+
+5
+00:00:18,320 --> 00:00:21,830
+manipulamos elementos que já estavam na página.
+
+6
+00:00:21,830 --> 00:00:23,640
+Enquanto está tudo certo,
+
+7
+00:00:23,640 --> 00:00:28,640
+não é algo que possamos fazer facilmente com as bibliotecas existentes de tecnologias.
+
+8
+00:00:28,640 --> 00:00:33,170
+O que torna o D3 especial é a capacidade de ser carregado facilmente e
+
+9
+00:00:33,170 --> 00:00:37,380
+manipular dados, frequentemente de arquivos externos ou fontes.
+
+10
+00:00:37,380 --> 00:00:42,098
+E além de ser a maneira que as funções de carregamento de dados D3 funciona.
+
+11
+00:00:42,098 --> 00:00:46,240
+O que cobrirei a respeito do modelo de servidor-cliente é, na verdade,
+
+12
+00:00:46,240 --> 00:00:51,170
+mostrar como a maior parte da Internet e da World Wide Web é possível e funciona tão bem.
+
+13
+00:00:51,170 --> 00:00:56,105
+Normalmente tudo acontece na Internet, acontece entre dois ou
+
+14
+00:00:56,105 --> 00:00:57,820
+mais computadores.
+
+15
+00:00:57,820 --> 00:01:01,950
+Mais frequentemente entre seu notebook e algum servidor externo.
+
+16
+00:01:01,950 --> 00:01:06,040
+E sem entrar em detalhes muito chatos, a forma como a World Wide
+
+17
+00:01:06,040 --> 00:01:11,240
+Web funciona é criando uma rede de todos computadores na Internet, para
+
+18
+00:01:11,240 --> 00:01:13,330
+que eles possam se comunicar.
+
+19
+00:01:13,330 --> 00:01:13,980
+Digamos que, por
+
+20
+00:01:13,980 --> 00:01:21,390
+exemplo, você deseja ir para a página inicial do D3, localizada em d3js.org.
+
+21
+00:01:21,390 --> 00:01:24,380
+E carregar a página index.html.
+
+22
+00:01:24,380 --> 00:01:27,060
+Quando você digita o endereço em seu navegador,
+
+23
+00:01:27,060 --> 00:01:33,960
+representado aqui pelo quadrado azul, o navegador da Web está local em seu notebook.
+
+24
+00:01:33,960 --> 00:01:38,550
+E precisa enviar a requisição para a Internet, solicitando
+
+25
+00:01:38,550 --> 00:01:42,260
+o HTML da página inicial d3.js.
+
+26
+00:01:42,260 --> 00:01:48,466
+Normalmente pode ser encontrado em um, se não em vários servidores na World Wide Web.
+
+27
+00:01:48,466 --> 00:01:52,780
+E a analogia boa, de como pensar sobre este processo,
+
+28
+00:01:52,780 --> 00:01:56,490
+é, na verdade, semelhante à forma que o correio funciona.
+
+29
+00:01:56,490 --> 00:01:57,110
+Vamos fingir por
+
+30
+00:01:57,110 --> 00:02:01,620
+um segundo que telefones e a Internet atual não existissem ainda.
+
+31
+00:02:01,620 --> 00:02:07,010
+Se você quisesse um pacote de um amigo antigamente, bem antigamente,
+
+32
+00:02:07,010 --> 00:02:11,320
+você teria de enviar uma carta a seu amigo, solicitando que ele o enviasse a você,
+
+33
+00:02:11,320 --> 00:02:14,980
+digamos, um pacote com seu livro favorito que ele pegou emprestado.
+
+34
+00:02:14,980 --> 00:02:16,910
+Você pode pensar no nome do host,
+
+35
+00:02:16,910 --> 00:02:23,290
+neste caso, d3js.org, como o endereço de um prédio ou hotel.
+
+36
+00:02:23,290 --> 00:02:25,800
+Ou até mesmo um condomínio de apartamentos, e
+
+37
+00:02:25,800 --> 00:02:31,280
+a porta de um servidor pode ser imaginada como uma sala ou número do apartamento.
+
+38
+00:02:31,280 --> 00:02:35,780
+Então, neste acaso, a analogia dessa época bem antiga era que estávamos enviando
+
+39
+00:02:35,780 --> 00:02:42,570
+uma carta, digamos que enviando a carta ao endereço da sala d3js.org, número 80.
+
+40
+00:02:42,570 --> 00:02:46,640
+Eu queria simplificar o diagrama um pouco,
+
+41
+00:02:46,640 --> 00:02:50,730
+para mostrar este processo e troca muito mais claramente.
+
+42
+00:02:51,900 --> 00:02:57,700
+Novamente, continuando a analogia de solicitação de seu livro favorito a um amigo,
+
+43
+00:02:57,700 --> 00:02:59,680
+presumindo que a Internet e
+
+44
+00:02:59,680 --> 00:03:02,870
+os telefones não existissem, você teria que enviar a carta.
+
+45
+00:03:02,870 --> 00:03:07,870
+Vamos presumir que você é o cliente ou, neste caso, um notebook, e
+
+46
+00:03:07,870 --> 00:03:13,980
+você enviou a carta com o endereço de destino e remetente.
+
+47
+00:03:13,980 --> 00:03:19,000
+Neste caso, o destinatário é d3js.org, porta 80.
+
+48
+00:03:19,000 --> 00:03:23,390
+E onde está seu amigo, neste caso o servidor, deve enviar seu
+
+49
+00:03:23,390 --> 00:03:27,550
+livro como um IP de alguma forma arbitrário.
+
+50
+00:03:27,550 --> 00:03:33,540
+Então, ele é só um identificador de seu notebook e um número de porta de
+
+51
+00:03:33,540 --> 00:03:39,600
+alguma forma arbitrária para enviar aquele pacote para outro endereço ou número de sala.
+
+52
+00:03:39,600 --> 00:03:42,780
+Seu amigo, o servidor, recebe esta requisição ou
+
+53
+00:03:42,780 --> 00:03:46,840
+a carta para enviar a você seu pacote com o livro favorito.
+
+54
+00:03:46,840 --> 00:03:48,710
+E normalmente, isto é chamado de requisição.
+
+55
+00:03:48,710 --> 00:03:51,630
+E a resposta que seu amigo ou
+
+56
+00:03:51,630 --> 00:03:54,680
+o servidor envia para você é o pacote com seu livro favorito.
+
+57
+00:03:54,680 --> 00:03:55,820
+Ou no caso,
+
+58
+00:03:55,820 --> 00:04:00,690
+a resposta da Web, que será um código HTML, ao endereço do remetente.
+
+59
+00:04:00,690 --> 00:04:05,690
+E uma vez que você receber seu livro favorito, nos tempos antigos você pode começar a ler
+
+60
+00:04:05,690 --> 00:04:11,490
+ou, atualmente na era de computadores, quando você receber a página da Web, o HTML.
+
+61
+00:04:11,490 --> 00:04:13,420
+Você pode usá-lo em seu navegador.
+
+62
+00:04:13,420 --> 00:04:17,149
+E agora esperamos que você tenha uma ideia da requisição geral e
+
+63
+00:04:17,149 --> 00:04:22,120
+do modelo de resposta do modelo de servidor-cliente onde você, o cliente, ou
+
+64
+00:04:22,120 --> 00:04:26,940
+seu notebook e seu navegador da Web requisitam uma página da Web, que é veiculada
+
+65
+00:04:26,940 --> 00:04:31,330
+no endereço da Internet ao qual você requisitou que enviasse a você algum código HTML.
+
+66
+00:04:32,330 --> 00:04:37,360
+No caso do código D3, digamos que requisitamos
+
+67
+00:04:37,360 --> 00:04:41,870
+a página de índice do d3js.org na porta 80,
+
+68
+00:04:41,870 --> 00:04:46,630
+que é o padrão para todas comunicações da Web, ou pelo menos HTTP.
+
+69
+00:04:46,630 --> 00:04:53,150
+O servidor reenvia a você uma página da Web index.html, composta de HTML,
+
+70
+00:04:53,150 --> 00:04:59,580
+JavaScript, CSS, e alguns códigos D3, e nessa página há um gráfico para renderizar.
+
+71
+00:04:59,580 --> 00:05:04,160
+Lembre-se que eu mencionei que em qualquer momento que o D3 carrega um arquivo externo,
+
+72
+00:05:04,160 --> 00:05:09,257
+por meio de suas funções de carregamento de dados, como json.csv ou
+
+73
+00:05:09,257 --> 00:05:13,650
+.tsv, ele faz uma requisição secundária a algum endereço.
+
+74
+00:05:13,650 --> 00:05:18,170
+Não precisa ser do servidor de origem, mas frequentemente é, e
+
+75
+00:05:18,170 --> 00:05:23,180
+o que o servidor envia de volta quando o navegador da Web faz uma requisição AJAX a
+
+76
+00:05:23,180 --> 00:05:27,330
+alguns arquivos de dados, neste caso, data.json,
+
+77
+00:05:27,330 --> 00:05:33,420
+o servidor envia os dados em outra resposta em que o D3
+
+78
+00:05:33,420 --> 00:05:38,150
+carrega em sua função de callback para associar-se a seu HTML ou
+
+79
+00:05:38,150 --> 00:05:43,610
+SVG e desenhar um gráfico, ou visualização com base nos dados enviados de volta.
+
+80
+00:05:43,610 --> 00:05:47,160
+Então, só para recapitular, quando você inicialmente requisita uma página,
+
+81
+00:05:47,160 --> 00:05:52,010
+seu navegador requisita a importação do host, alguns documentos da Web,
+
+82
+00:05:52,010 --> 00:05:56,110
+neste caso, index.html, que o servidor retorna.
+
+83
+00:05:56,110 --> 00:05:57,860
+Nesta página HTML,
+
+84
+00:05:57,860 --> 00:06:04,440
+se houver uma função de carregamento de dados externos no D3, como d3.json,
+
+85
+00:06:04,440 --> 00:06:10,110
+uma requisição AJAX é feita, que retorna ao mesmo servidor ou
+
+86
+00:06:10,110 --> 00:06:15,500
+qualquer endereço que você especificar no plano de fundo, uma vez que a página foi carregada, e
+
+87
+00:06:15,500 --> 00:06:17,840
+aguarda para executar a função de callback,
+
+88
+00:06:17,840 --> 00:06:20,290
+até que o servidor envie seus dados para que
+
+89
+00:06:20,290 --> 00:06:23,700
+ele possa criar uma visualização com os dados e
+
+90
+00:06:23,700 --> 00:06:27,990
+o JavaScript, HTML e SVG que foram enviados na resposta original.

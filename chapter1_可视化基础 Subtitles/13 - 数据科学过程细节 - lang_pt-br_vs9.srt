@@ -1,0 +1,147 @@
+1
+00:00:00,570 --> 00:00:04,210
+À esquerda, ele coloca o que a maioria das pessoas pensa como a primeira parte
+
+2
+00:00:04,210 --> 00:00:07,310
+deste processo, adquirindo e transformando os dados irreconhecíveis.
+
+3
+00:00:08,330 --> 00:00:11,190
+E, com frequência, isso é o que leva mais tempo.
+
+4
+00:00:11,190 --> 00:00:15,260
+À direita, Ben coloca a visualização de dados interativa
+
+5
+00:00:15,260 --> 00:00:18,960
+que, tipicamente, é o que as pessoas imaginam como o produto final.
+
+6
+00:00:18,960 --> 00:00:23,650
+Um gráfico bonito, um gráfico depois que todo o trabalho difícil foi feito.
+
+7
+00:00:23,650 --> 00:00:28,180
+Ben coloca o domínio que ele imagina que se adéqua mais naturalmente sobre cada etapa.
+
+8
+00:00:28,180 --> 00:00:32,189
+O primeiro dos quais é ciência da computação.
+
+9
+00:00:32,189 --> 00:00:37,180
+No contexto maior da visualização de dados ou da ciência de dados como um todo,
+
+10
+00:00:37,180 --> 00:00:42,412
+as etapas de aquisição e análise normalmente estão preocupadas com a ingestão de dados,
+
+11
+00:00:42,412 --> 00:00:48,250
+seja capturando na Web, coleção de log, acessos a bancos de dados etc.
+
+12
+00:00:48,250 --> 00:00:54,540
+E criando pilelines escaláveis de ETL (extract, transform and load).
+
+13
+00:00:54,540 --> 00:01:00,810
+Um segundo grupo aqui de filtragem e mineração representa o que normalmente está mais
+
+14
+00:01:00,810 --> 00:01:05,980
+associado com a ciência de dados, e muitas pessoas consideram isso o mais interessante.
+
+15
+00:01:05,980 --> 00:01:11,130
+Isso inclui modelagem, mineração de dados e análise exploratória e
+
+16
+00:01:11,130 --> 00:01:15,670
+a aplicação de teorias estatística e matemática para descobrir visões.
+
+17
+00:01:15,670 --> 00:01:16,790
+Por causa disso,
+
+18
+00:01:16,790 --> 00:01:22,955
+Ben Fry rotula a segunda etapa como associada à estatística e à mineração de dados.
+
+19
+00:01:22,955 --> 00:01:25,970
+Embora as pessoas normalmente pensem que a segunda etapa seja, por
+
+20
+00:01:25,970 --> 00:01:29,490
+assim dizer, onde a mágica acontece e os modelos são criados.
+
+21
+00:01:29,490 --> 00:01:34,070
+Eu realmente quero fortalecer a importância do processo como um todo.
+
+22
+00:01:34,070 --> 00:01:34,780
+Afinal,
+
+23
+00:01:34,780 --> 00:01:40,300
+se você não tiver nenhum dado de uma maneira prontamente acessível, você não poderia modelá-los.
+
+24
+00:01:40,300 --> 00:01:43,690
+E mesmo depois que você tem um modelo, se você não apresentar e
+
+25
+00:01:43,690 --> 00:01:45,470
+comunicar seus resultados.
+
+26
+00:01:45,470 --> 00:01:47,610
+Eles também podiam nunca ter acontecido.
+
+27
+00:01:47,610 --> 00:01:52,070
+A terceira etapa aqui focaliza a representação visual de seus dados e
+
+28
+00:01:52,070 --> 00:01:56,750
+como você os apresenta graficamente, portanto de maneira mais associada com
+
+29
+00:01:56,750 --> 00:02:00,030
+os campos do design do gráfico e com a teoria da visualização.
+
+30
+00:02:01,040 --> 00:02:05,670
+É na terceira etapa que experimentamos com codificações visuais diferentes para
+
+31
+00:02:05,670 --> 00:02:07,870
+apresentar nossos dados da maneira mais efetiva.
+
+32
+00:02:08,940 --> 00:02:13,220
+E a quarta etapa aqui está preocupada em como um leitor ou
+
+33
+00:02:13,220 --> 00:02:16,530
+seu público alvo pode interagir com sua visualização.
+
+34
+00:02:16,530 --> 00:02:20,560
+As técnicas do campo da visualização de informações e
+
+35
+00:02:20,560 --> 00:02:23,580
+a interação humana com o computador se aplicam aqui
+
+36
+00:02:23,580 --> 00:02:28,620
+para determinar como criar melhor seu gráfico ou visualização de forma a
+
+37
+00:02:28,620 --> 00:02:32,810
+permitir que o usuário descubra visões potenciais para si mesmo.

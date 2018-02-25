@@ -1,0 +1,499 @@
+1
+00:00:00,550 --> 00:00:04,110
+Ao longo deste curso, encontraremos uma variedade de tecnologias e
+
+2
+00:00:04,110 --> 00:00:09,960
+ferramentas, que possibilitam que os designers, artistas, desenvolvedores e cientistas de dados
+
+3
+00:00:09,960 --> 00:00:13,850
+expressem suas visões e comuniquem suas ideias com o mundo todo.
+
+4
+00:00:13,850 --> 00:00:17,400
+E ao mesmo tempo tentaremos mostrar a você o que consideramos
+
+5
+00:00:17,400 --> 00:00:22,310
+ser as ferramentas mais relevantes, para ajudar você a criar visualizações de dados.
+
+6
+00:00:22,310 --> 00:00:26,240
+Há muito mais tecnologias por aí mas não é possível abordar todas.
+
+7
+00:00:26,240 --> 00:00:30,300
+Entretanto, você pode encontrá-las, ou pelo menos pessoas que as usam. Portanto,
+
+8
+00:00:30,300 --> 00:00:33,570
+é muito bom ter uma ideia do que existe por aí.
+
+9
+00:00:33,570 --> 00:00:35,510
+Na parte inferior do espectro,
+
+10
+00:00:35,510 --> 00:00:38,760
+estão formatos de gráficos de nível baixo e especificações.
+
+11
+00:00:38,760 --> 00:00:42,260
+Estas são algumas das opções mais eficientes, eficazes e flexíveis
+
+12
+00:00:42,260 --> 00:00:46,430
+para se criar uma visualização, mas apresentam um nível muito baixo e
+
+13
+00:00:46,430 --> 00:00:51,070
+custos significativos, não apenas para aprender, mas para desenvolver.
+
+14
+00:00:51,070 --> 00:00:55,120
+Pense neles como a linguagem assembly das visualizações.
+
+15
+00:00:55,120 --> 00:00:59,270
+Embora essas tecnologias sejam bem flexíveis para se trabalhar,
+
+16
+00:00:59,270 --> 00:01:04,610
+elas forçam você a especificar o que você quer feito, em termos de pixels e linhas, ou
+
+17
+00:01:04,610 --> 00:01:11,390
+posicionar um ponto em xy e criar um caminho para o ponto wz.
+
+18
+00:01:11,390 --> 00:01:17,070
+É como se você estivesse instruindo um pintor ou robô a desenhar.
+
+19
+00:01:18,180 --> 00:01:21,950
+Conforme você avança no espectro, para bibliotecas e linguagens de nível mais alto,
+
+20
+00:01:21,950 --> 00:01:26,690
+torna-se muito mais fácil e rápido desenvolver seus gráficos.
+
+21
+00:01:26,690 --> 00:01:30,500
+Embora a ferramenta que você possa usar talvez venha a ser ligeiramente menos flexível
+
+22
+00:01:30,500 --> 00:01:34,560
+que o canvas HTML5, WebGL ou SVG não processados.
+
+23
+00:01:34,560 --> 00:01:40,580
+Um atalho: temos nosso querido D3.js.
+
+24
+00:01:40,580 --> 00:01:44,210
+Abrangeremos mais as especificidades do D3 em breve, mas
+
+25
+00:01:44,210 --> 00:01:49,440
+como uma biblioteca de visualização de dados criada em cima de padrões da Web aberta,
+
+26
+00:01:49,440 --> 00:01:54,280
+é implementado em JavaScript e permite a associação de dados de forma impecável
+
+27
+00:01:54,280 --> 00:02:00,220
+ao HTML e a elementos SVG, ou na verdade a qualquer coisa na página da Web.
+
+28
+00:02:00,220 --> 00:02:06,080
+Como você pode personalizar HTML e SVG com CSS, o CSS funciona
+
+29
+00:02:06,080 --> 00:02:11,810
+bem naturalmente com todo o ambiente de tecnologias nos quais o D3JS é baseado.
+
+30
+00:02:12,850 --> 00:02:16,210
+O D3, ao contrário do que as pessoas podem pensar,
+
+31
+00:02:16,210 --> 00:02:19,220
+é, na verdade, um pouco de abstração.
+
+32
+00:02:19,220 --> 00:02:23,320
+Para continuar nossa analogia de linguagens de programação e
+
+33
+00:02:23,320 --> 00:02:28,380
+sobre no que elas são baseadas, eu diria que o D3 no espectro das tecnologias de
+
+34
+00:02:28,380 --> 00:02:33,625
+visualização está, na verdade, em um nível semelhante aos das linguagens C ou
+
+35
+00:02:33,625 --> 00:02:37,850
+C++ em todo o espectro de linguagens de programação.
+
+36
+00:02:37,850 --> 00:02:42,590
+E como as pessoas usam C e C++ para criar sistemas operacionais,
+
+37
+00:02:42,590 --> 00:02:47,930
+programas e compiladores para outras linguagens, o D3 realmente se destaca
+
+38
+00:02:47,930 --> 00:02:52,880
+quando você o usa para criar abstrações e bibliotecas de nível mais alto em cima dele.
+
+39
+00:02:54,110 --> 00:02:58,040
+E isso nos leva ao conjunto de bibliotecas do D3.js.
+
+40
+00:02:58,040 --> 00:02:59,510
+Esta camada representa
+
+41
+00:02:59,510 --> 00:03:03,180
+a infinidade de bibliotecas de alto nível criadas em cima de elementos do D3.
+
+42
+00:03:03,180 --> 00:03:06,600
+Apesar de haver muitas bibliotecas para listar ou
+
+43
+00:03:06,600 --> 00:03:11,530
+até mesmo encaixar na tela que é criada em cima do D3, três das mais comuns ou
+
+44
+00:03:11,530 --> 00:03:14,598
+aquelas que mencionaríamos nesta aula são Rickshaw,
+
+45
+00:03:14,598 --> 00:03:18,580
+Dimple.js e NVD3.
+
+46
+00:03:18,580 --> 00:03:25,340
+As pessoas gostam de pensar no D3.js como peças de biblioteca de visualização de dados.
+
+47
+00:03:25,340 --> 00:03:29,170
+Você pode facilmente criar componentes do D3.js
+
+48
+00:03:29,170 --> 00:03:33,430
+para criar abstrações de nível superior e bibliotecas em cima dele.
+
+49
+00:03:33,430 --> 00:03:37,990
+Embora possa parecer muito assustador navegar no espaço de cada biblioteca em cima
+
+50
+00:03:37,990 --> 00:03:42,710
+do D3, elas geralmente se encaixam em uma de duas categorias.
+
+51
+00:03:42,710 --> 00:03:47,655
+Elas são bibliotecas de mapeamento de alto nível como NVD3 e
+
+52
+00:03:47,655 --> 00:03:53,140
+Dimple.js ou são adaptadas para um tipo específico de dados.
+
+53
+00:03:53,140 --> 00:03:53,880
+Como Rickshaw.
+
+54
+00:03:54,930 --> 00:03:57,610
+Rickshaw foi criado para visualização mais eficaz e
+
+55
+00:03:57,610 --> 00:04:02,500
+fácil de séries temporais e dados de streaming em tempo real.
+
+56
+00:04:02,500 --> 00:04:07,550
+Na mesma linha de visualização de um tipo específico de dados, também estão as
+
+57
+00:04:07,550 --> 00:04:13,130
+bibliotecas geográficas para ajudar a criar gráficos de dados e adicionar interação aos mapas.
+
+58
+00:04:13,130 --> 00:04:16,890
+Usaremos o Dimple.js nesta aula na lição posterior.
+
+59
+00:04:16,890 --> 00:04:21,010
+E vivenciaremos o poder de usar uma abstração de alto nível do que apenas usar o
+
+60
+00:04:21,010 --> 00:04:22,930
+D3 direto.
+
+61
+00:04:22,930 --> 00:04:28,330
+E novamente, voltando a nosso espectro de linguagens de programação, se WebGL,
+
+62
+00:04:28,330 --> 00:04:32,640
+Canvas e SVG são análogos à linguagem assembly,
+
+63
+00:04:32,640 --> 00:04:35,705
+o D3 é análogo a C e C++.
+
+64
+00:04:35,705 --> 00:04:40,400
+Eu diria que as bibliotecas de nível superior criadas em cima do D3
+
+65
+00:04:40,400 --> 00:04:45,470
+são semelhantes no nível de abstração a algo como Python ou Ruby.
+
+66
+00:04:45,470 --> 00:04:50,300
+Python e Ruby são linguagens razoavelmente de alto nível, pois são interpretadas.
+
+67
+00:04:50,300 --> 00:04:53,980
+Você não precisa lidar com um conjunto de memórias, e
+
+68
+00:04:53,980 --> 00:04:56,600
+muitas vezes elas são implementadas em C ou C++.
+
+69
+00:04:56,600 --> 00:05:00,660
+E, como essas linguagens de nível superior,
+
+70
+00:05:00,660 --> 00:05:05,509
+são implementadas em uma linguagem de nível inferior. NVD3, Dimple.js e
+
+71
+00:05:05,509 --> 00:05:11,570
+Rickshaw podem ser interpretadas como implementadas em ou em cima do D3.js.
+
+72
+00:05:11,570 --> 00:05:14,750
+Bem no topo deste espectro, estão bibliotecas que
+
+73
+00:05:14,750 --> 00:05:20,050
+têm interfaces gráficas para a criação de serialização, como Raw ou Chartio.
+
+74
+00:05:21,360 --> 00:05:25,990
+Raw é uma biblioteca de código aberto criada em cima do D3 que permite que você crie
+
+75
+00:05:25,990 --> 00:05:29,940
+fácil e rapidamente gráficos predefinidos.
+
+76
+00:05:29,940 --> 00:05:35,420
+Chartio é um produto com base na Web semelhante ao Tableau, que permite que
+
+77
+00:05:35,420 --> 00:05:40,830
+você explore de forma rápida e fácil seus dados para criar painéis e
+
+78
+00:05:40,830 --> 00:05:43,210
+gráficos a partir do nome.
+
+79
+00:05:43,210 --> 00:05:43,710
+Chartio.
+
+80
+00:05:45,040 --> 00:05:49,330
+Como essas bibliotecas estão tão altas no espectro, elas têm flexibilidade
+
+81
+00:05:49,330 --> 00:05:54,970
+bem limitada e podem geralmente apenas produzir um grupo de gráficos predefinidos.
+
+82
+00:05:54,970 --> 00:05:58,380
+O lado positivo de ter um número de grupo de gráficos predefinidos
+
+83
+00:05:58,380 --> 00:06:02,720
+é criá-los quase sem esforço e diretamente.
+
+84
+00:06:02,720 --> 00:06:07,010
+Pense neles como o Excel das bibliotecas de visualização de dados.
+
+85
+00:06:07,010 --> 00:06:10,070
+Elas são incrivelmente úteis para cerca de 90% ou
+
+86
+00:06:10,070 --> 00:06:14,500
+95% dos casos de uso que você provavelmente encontra.
+
+87
+00:06:14,500 --> 00:06:19,010
+E elas tornam aqueles 95% dos casos bem simples
+
+88
+00:06:19,010 --> 00:06:22,580
+se seus gráficos combinarem com o que você estiver procurando.
+
+89
+00:06:22,580 --> 00:06:26,900
+Mas se você se afastar desse caminho de gráficos predefinidos, pode ser complicado,
+
+90
+00:06:26,900 --> 00:06:29,850
+se não impossível, personalizá-los.
+
+91
+00:06:29,850 --> 00:06:35,210
+Se nenhuma de minhas analogias para computar linguagens de programação fizer sentido,
+
+92
+00:06:35,210 --> 00:06:35,800
+não se preocupe.
+
+93
+00:06:35,800 --> 00:06:39,400
+Você não precisará saber de nada disso para a aula.
+
+94
+00:06:39,400 --> 00:06:42,990
+Mas creio que esta explicação ajudou algumas pessoas a entender melhor
+
+95
+00:06:42,990 --> 00:06:46,110
+o lugar que cada uma dessas tecnologias ocupa no espectro da
+
+96
+00:06:46,110 --> 00:06:47,990
+abstração e da visualização.
+
+97
+00:06:49,210 --> 00:06:53,380
+Ás vezes, gosto de pensar nessas tecnologias existindo dentro
+
+98
+00:06:53,380 --> 00:06:55,860
+de uma pirâmide de abstração.
+
+99
+00:06:55,860 --> 00:07:01,690
+Pense na largura da base da pirâmide como representando o grau de flexibilidade
+
+100
+00:07:01,690 --> 00:07:06,610
+de cada uma das tecnologias naquele nível e na largura da pirâmide
+
+101
+00:07:06,610 --> 00:07:09,940
+como a facilidade de criar visualizações e
+
+102
+00:07:09,940 --> 00:07:13,140
+aumentar a produtividade dos desenvolvedores.
+
+103
+00:07:13,140 --> 00:07:17,170
+Na parte inferior da pirâmide estão as tecnologias que têm bastante
+
+104
+00:07:17,170 --> 00:07:21,300
+flexibilidade e oferecem muito ganho no desempenho e
+
+105
+00:07:21,300 --> 00:07:26,260
+na eficiência, mas podem ser muito difíceis de usar e lentas no processo de desenvolvimento.
+
+106
+00:07:26,260 --> 00:07:29,720
+Na outra ponta do espectro, e no topo da pirâmide,
+
+107
+00:07:29,720 --> 00:07:32,700
+você tem todos esses como Raw e Chartio.
+
+108
+00:07:32,700 --> 00:07:37,550
+Que são bem fáceis de usar, permitem que você desenvolva visualizações bem rapidamente
+
+109
+00:07:37,550 --> 00:07:39,600
+e interagem com aquelas visualizações,
+
+110
+00:07:39,600 --> 00:07:44,610
+mas podem ser bem menos flexíveis que algo como Web GL ou D3.
+
+111
+00:07:44,610 --> 00:07:47,750
+Uma coisa que você sempre tem de considerar como um desenvolvedor,
+
+112
+00:07:47,750 --> 00:07:50,830
+especialmente se você estiver trabalhando em um projeto de ciência de dados,
+
+113
+00:07:50,830 --> 00:07:54,380
+com o escopo inteiro do projeto sendo bem maior do que apenas
+
+114
+00:07:54,380 --> 00:07:59,510
+a porção da visualização, é a troca entre produtividade de desenvolvimento e
+
+115
+00:07:59,510 --> 00:08:01,580
+eficiência de sua solução.
+
+116
+00:08:01,580 --> 00:08:02,980
+Devido a tendências recentes e
+
+117
+00:08:02,980 --> 00:08:08,040
+melhorias de desempenho em navegadores e de todas as tecnologias envolvidas,
+
+118
+00:08:08,040 --> 00:08:13,190
+e também das abstrações criadas por bibliotecas de nível superior, os desenvolvedores
+
+119
+00:08:13,190 --> 00:08:16,660
+estão experimentando maior
+
+120
+00:08:16,660 --> 00:08:22,210
+produtividade e tendo acesso a bibliotecas flexíveis e eficientes.
+
+121
+00:08:22,210 --> 00:08:24,820
+Por conta disso, você pode ter seu bolo e
+
+122
+00:08:24,820 --> 00:08:29,170
+comê-lo também em vez de codificar em uma biblioteca de alto nível.
+
+123
+00:08:29,170 --> 00:08:33,220
+E ainda assim obter desempenho e flexibilidade decentes. E enquanto cada uma das
+
+124
+00:08:33,220 --> 00:08:37,110
+muitas bibliotecas de visualizações de dados ai fora têm seus pontos fortes e
+
+125
+00:08:37,110 --> 00:08:42,679
+fracos, nesta aula focaremos na biblioteca JavaScript do D3.

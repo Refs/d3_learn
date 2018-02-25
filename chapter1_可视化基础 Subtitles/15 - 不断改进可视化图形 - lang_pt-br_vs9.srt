@@ -1,0 +1,103 @@
+1
+00:00:00,320 --> 00:00:02,000
+O que eu quero destacar é que,
+
+2
+00:00:02,000 --> 00:00:06,480
+como um pintor passa por muitas iterações em sua obra-prima final,
+
+3
+00:00:06,480 --> 00:00:12,260
+voltando para novo esboço, novo desenho, alteração de telas, camadas de tinta etc
+
+4
+00:00:12,260 --> 00:00:17,350
+O processo de visualização de dados não é simplesmente a cobertura de dados,
+
+5
+00:00:17,350 --> 00:00:21,210
+a análise do bolo depois de pronto, é fundamental e
+
+6
+00:00:21,210 --> 00:00:23,990
+parte integrante do processo como um todo.
+
+7
+00:00:23,990 --> 00:00:27,600
+Enquanto você lê este gráfico da esquerda para a direita,
+
+8
+00:00:27,600 --> 00:00:30,470
+cada estágio geralmente é iterativo e
+
+9
+00:00:30,470 --> 00:00:35,570
+você vai se deparar passando por este processo de uma forma não linear.
+
+10
+00:00:35,570 --> 00:00:39,800
+Uma etapa um pode informar melhor o que você fez na etapa anterior.
+
+11
+00:00:39,800 --> 00:00:44,340
+Por exemplo, pode ser que você visualize só uma vez seus dados, se achar que há
+
+12
+00:00:44,340 --> 00:00:48,850
+muitos pontos que fazem sentido e você precise voltar e filtrar e
+
+13
+00:00:48,850 --> 00:00:49,870
+acertar seus dados.
+
+14
+00:00:49,870 --> 00:00:53,590
+Para transformá-los em um novo formato que possa ser muito mais fácil de
+
+15
+00:00:53,590 --> 00:00:57,000
+entender de uma perspectiva visual.
+
+16
+00:00:57,000 --> 00:01:02,420
+Além disso, você pode imaginar alguma ideia que você pode descobrir em um estágio anterior,
+
+17
+00:01:02,420 --> 00:01:05,860
+que queira incorporar em sua visualização final.
+
+18
+00:01:05,860 --> 00:01:10,700
+Ou algum novo dado que você localizar on-line que você acha que adicionará mais contexto e
+
+19
+00:01:10,700 --> 00:01:13,190
+reforçará a narrativa que você criou.
+
+20
+00:01:13,190 --> 00:01:18,900
+E a visualização de dados por si própria é uma disciplina muito expansiva,
+
+21
+00:01:18,900 --> 00:01:23,310
+desde as instalações de arte interativa que os artistas de dados produzem,
+
+22
+00:01:23,310 --> 00:01:26,430
+até painéis e gráficos analíticos de negócios.
+
+23
+00:01:26,430 --> 00:01:29,980
+Um dos temas recorrentes ao longo deste curso será,
+
+24
+00:01:29,980 --> 00:01:34,770
+como aproveitar melhor os princípios que aprendemos sobre a teoria de visualização
+
+25
+00:01:34,770 --> 00:01:39,540
+combinados com tecnologias como D3 para comunicar nossos dados e
+
+26
+00:01:39,540 --> 00:01:41,580
+ideias da maneira mais eficaz.

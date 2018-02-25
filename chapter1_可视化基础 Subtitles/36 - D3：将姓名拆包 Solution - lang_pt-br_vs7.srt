@@ -1,0 +1,67 @@
+1
+00:00:00,280 --> 00:00:02,950
+O processo no qual o navegador cria e
+
+2
+00:00:02,950 --> 00:00:07,200
+constrói o modelo de objeto de documento pode ser bem complicado.
+
+3
+00:00:07,200 --> 00:00:09,480
+Mas, para sermos precisos,
+
+4
+00:00:09,480 --> 00:00:14,890
+ele acontece durante o carregamento da página ao receber a origem HTML.
+
+5
+00:00:14,890 --> 00:00:19,520
+Mesmo antes do carregamento completo da página,
+
+6
+00:00:19,520 --> 00:00:23,680
+o navegador começa a construir o modelo de objeto de documento um pouco de cada vez.
+
+7
+00:00:23,680 --> 00:00:29,210
+Outras respostas que consideraria corretas vem depois do recebimento do HTML
+
+8
+00:00:29,210 --> 00:00:30,656
+ou do carregamento da página.
+
+9
+00:00:30,656 --> 00:00:37,040
+Para b, embora o DOM possa ser acessado por diferentes meios,
+
+10
+00:00:37,040 --> 00:00:39,020
+a principal resposta que estava procurando
+
+11
+00:00:39,020 --> 00:00:42,910
+é por meio da sua interface de programação de aplicação JavaScript, já que
+
+12
+00:00:42,910 --> 00:00:47,100
+vamos trabalhar no navegador e com JavaScript neste curso.
+
+13
+00:00:47,100 --> 00:00:51,520
+Na terceira parte, embora possa acessar o DOM por meio de JavaScript,
+
+14
+00:00:51,520 --> 00:00:56,350
+como mencionei, o DOM em si não é uma linguagem de programação,
+
+15
+00:00:56,350 --> 00:01:01,950
+ou JavaScript. É apenas uma especificação de interface.
+
+16
+00:01:01,950 --> 00:01:07,150
+O DOM também é um objeto hierárquico, e o que quero dizer com isso é que ele tem
+
+17
+00:01:07,150 --> 00:01:12,620
+uma estrutura de árvore e isso se deve à natureza aninhada do próprio HTML.

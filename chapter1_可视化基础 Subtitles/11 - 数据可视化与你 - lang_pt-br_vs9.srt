@@ -1,0 +1,47 @@
+1
+00:00:00,380 --> 00:00:05,020
+Então por que estamos concentrados em um designer, um engenheiro e um contador de histórias?
+
+2
+00:00:05,020 --> 00:00:07,840
+Bem, achamos que essas funções servem como um ótimo ponto de entrada para
+
+3
+00:00:07,840 --> 00:00:11,400
+aprender sobre e criar visualizações de dados.
+
+4
+00:00:11,400 --> 00:00:15,014
+Alguns de vocês podem vir de uma formação de design com um portfólio de projetos,
+
+5
+00:00:15,014 --> 00:00:18,190
+enquanto outros podem ter mais experiência em programação e
+
+6
+00:00:18,190 --> 00:00:22,430
+podem apresentar software, GitHub, ou outros sites que criaram.
+
+7
+00:00:22,430 --> 00:00:27,100
+E outros podem estar familiarizados com texto e/ou comunicação.
+
+8
+00:00:27,100 --> 00:00:31,080
+Não importa a sua experiência, esperamos ensiná-lo algo novo nessa aula e
+
+9
+00:00:31,080 --> 00:00:33,380
+esperamos que você consiga compartilhar suas experiências e
+
+10
+00:00:33,380 --> 00:00:36,680
+sua competência com nossa comunidade de aprendizado.
+
+11
+00:00:36,680 --> 00:00:37,980
+Agora vou passar a palavra para o Jonathan,
+
+12
+00:00:37,980 --> 00:00:41,350
+que vai abordar a visualização de dados no contexto da ciência de dados.

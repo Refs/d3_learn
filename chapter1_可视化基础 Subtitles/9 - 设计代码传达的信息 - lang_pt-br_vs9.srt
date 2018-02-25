@@ -1,0 +1,11 @@
+1
+00:00:00,300 --> 00:00:05,120
+Dedique alguns minutos para pensar sobre sua experiência em design, programação e narrativa de histórias.
+
+2
+00:00:05,120 --> 00:00:09,910
+O quanto você se identifica como designer, engenheiro ou contador de histórias?
+
+3
+00:00:09,910 --> 00:00:12,500
+Classifique-se em cada uma dessas ocupações, de zero a dez.

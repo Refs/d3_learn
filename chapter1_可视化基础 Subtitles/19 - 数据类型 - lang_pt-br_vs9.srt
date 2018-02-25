@@ -1,0 +1,187 @@
+1
+00:00:00,290 --> 00:00:02,110
+Para criar ou
+
+2
+00:00:02,110 --> 00:00:07,610
+até mesmo recriar visualizações, precisamos entender os dados e tipos de dados.
+
+3
+00:00:07,610 --> 00:00:10,240
+Quase tudo pode ser transformado em dados.
+
+4
+00:00:10,240 --> 00:00:14,260
+Vamos analisar um gráfico e ver seus tipos de dados.
+
+5
+00:00:14,260 --> 00:00:18,770
+Esta visualização é um trabalho de Hans Rothstein com dados da saúde mundial.
+
+6
+00:00:18,770 --> 00:00:21,920
+Se tiver cinco minutos, aconselho você a assistir a narração de Hans sobre
+
+7
+00:00:21,920 --> 00:00:25,430
+esta visualização no vídeo vinculado nas Notas do instrutor.
+
+8
+00:00:25,430 --> 00:00:28,660
+Hans faz uma apresentação carismática que dá vida a esses dados.
+
+9
+00:00:29,678 --> 00:00:32,450
+Agora, quero destacar os diferentes tipos de dados que podem ser encontrados
+
+10
+00:00:32,450 --> 00:00:33,980
+nesta visualização.
+
+11
+00:00:33,980 --> 00:00:36,150
+Vamos começar com os dados quantitativos ou
+
+12
+00:00:36,150 --> 00:00:38,170
+quaisquer variáveis que tenham números exatos.
+
+13
+00:00:39,230 --> 00:00:44,538
+Isso inclui variáveis como expectativa de vida,
+
+14
+00:00:44,538 --> 00:00:50,110
+renda per capita, população total e ano.
+
+15
+00:00:50,110 --> 00:00:51,865
+Os dados quantitativos podem ser descontínuos ou
+
+16
+00:00:51,865 --> 00:00:56,950
+contínuos e, geralmente, as variáveis contáveis são consideradas descontínuas.
+
+17
+00:00:56,950 --> 00:01:00,930
+Neste caso, a população total seria considerada uma variável descontínua,
+
+18
+00:01:00,930 --> 00:01:04,730
+enquanto a renda per capita seria uma variável contínua.
+
+19
+00:01:04,730 --> 00:01:08,370
+Outro tipo de dados que aparece nesta visualização são os dados categorizados.
+
+20
+00:01:09,500 --> 00:01:13,890
+Os dados nominais são uma forma de rotular ou categorizar os dados em grupos.
+
+21
+00:01:13,890 --> 00:01:16,749
+Neste caso, os países são agrupados em regiões.
+
+22
+00:01:17,760 --> 00:01:22,590
+As Américas estão em amarelo e a África subsaariana está em azul.
+
+23
+00:01:22,590 --> 00:01:25,586
+Os dados categorizados podem assumir valores numéricos, mas
+
+24
+00:01:25,586 --> 00:01:30,093
+esses valores não terão necessariamente algum significado matemático.
+
+25
+00:01:30,093 --> 00:01:34,300
+Um tipo de dados final não mostrado nesta visualização são os dados ordenados.
+
+26
+00:01:35,320 --> 00:01:37,770
+Os dados ordenados são semelhantes aos dados categorizados,
+
+27
+00:01:37,770 --> 00:01:42,390
+com exceção de que as categorias são ordenadas ou classificadas de forma específica.
+
+28
+00:01:42,390 --> 00:01:45,970
+Por exemplo, se eu pegasse a população de cada país e
+
+29
+00:01:45,970 --> 00:01:48,420
+a dividisse em colunas.
+
+30
+00:01:48,420 --> 00:01:52,250
+Eu poderia ter quatro grupos em que cada país entraria em uma
+
+31
+00:01:52,250 --> 00:01:56,500
+coluna de população de acordo com os números: 0 e 10 milhões, 10 e
+
+32
+00:01:56,500 --> 00:02:01,410
+100 milhões, 100 e 500 milhões ou superior a 500 milhões.
+
+33
+00:02:02,730 --> 00:02:06,130
+Neste exemplo, estamos praticamente usando dados quantitativos e
+
+34
+00:02:06,130 --> 00:02:07,490
+dividindo-os em grupos.
+
+35
+00:02:07,490 --> 00:02:11,140
+Temos colunas ou categorias de outros tipos de dados.
+
+36
+00:02:11,140 --> 00:02:15,530
+Um exemplo ligeiramente diferente seria o nível de dificuldade da aula: iniciante,
+
+37
+00:02:15,530 --> 00:02:17,400
+intermediário e avançado.
+
+38
+00:02:17,400 --> 00:02:21,010
+Esses três tipos de aula seriam uma forma de rotular as aulas, e
+
+39
+00:02:21,010 --> 00:02:24,270
+eles têm uma ordem natural de elevação de dificuldade.
+
+40
+00:02:24,270 --> 00:02:26,180
+Como cientistas de dados, é importante
+
+41
+00:02:26,180 --> 00:02:30,370
+saber que cada um desses tipos de dados pode ser codificado visualmente.
+
+42
+00:02:30,370 --> 00:02:33,541
+Nos próximos vídeos, nos aprofundaremos em como podemos fazer
+
+43
+00:02:33,541 --> 00:02:37,972
+escolhas adequadas para codificações visuais, com base nos diferentes tipos de dados.
+
+44
+00:02:37,972 --> 00:02:40,469
+Esta foi apenas uma rápida visão geral dos tipos de dados.
+
+45
+00:02:40,469 --> 00:02:43,861
+Se esses conceitos ainda estiverem um pouco confusos para você, assista
+
+46
+00:02:43,861 --> 00:02:47,940
+aos três vídeos da aula Instructional Data Science.
+
+47
+00:02:47,940 --> 00:02:50,150
+Esses vídeos estão vinculados nas Notas do instrutor.

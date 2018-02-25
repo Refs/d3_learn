@@ -1,0 +1,55 @@
+1
+00:00:00,770 --> 00:00:05,640
+Para a visualização, países e jogadores foram codificados ao longo do eixo x.
+
+2
+00:00:05,640 --> 00:00:08,570
+Tempo codificado ao longo do eixo y.
+
+3
+00:00:08,570 --> 00:00:11,920
+Gols feitos foi codificado pelo tamanho dos círculos.
+
+4
+00:00:11,920 --> 00:00:15,510
+E o maior marcador foi codificado por tonalidade de cor, que era amarelo.
+
+5
+00:00:15,510 --> 00:00:17,290
+E agora, vejamos no gráfico.
+
+6
+00:00:17,290 --> 00:00:20,210
+Podemos ver que o tempo está codificado ao longo do eixo y.
+
+7
+00:00:20,210 --> 00:00:23,460
+País e jogador foram codificados ao longo do eixo x.
+
+8
+00:00:23,460 --> 00:00:26,620
+O número de gols é codificado por tamanho dos círculos,
+
+9
+00:00:26,620 --> 00:00:28,270
+indicado por esta legenda e
+
+10
+00:00:28,270 --> 00:00:32,630
+a pontuação mais alta é indicada por tonalidade de cor, que neste caso é amarelo.
+
+11
+00:00:32,630 --> 00:00:36,910
+Eu sei que isso pode parecer trivial, mas foram escolhas deliberadas.
+
+12
+00:00:36,910 --> 00:00:38,920
+A pessoa que criou este gráfico
+
+13
+00:00:38,920 --> 00:00:42,380
+pensou cuidadosamente sobre as variáveis mais importantes.
+
+14
+00:00:42,380 --> 00:00:45,320
+E como posicioná-las no gráfico e representá-las visualmente.

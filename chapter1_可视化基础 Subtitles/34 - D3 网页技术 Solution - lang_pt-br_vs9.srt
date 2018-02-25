@@ -1,0 +1,15 @@
+1
+00:00:00,210 --> 00:00:04,150
+O D3 pode fazer interface com muitas dessas outras linguagens e bibliotecas
+
+2
+00:00:04,150 --> 00:00:07,970
+de programação, como o Python e o Java.
+
+3
+00:00:07,970 --> 00:00:12,910
+As principais tecnologias usadas pelo D3 são os padrões abertos da Web,
+
+4
+00:00:12,910 --> 00:00:17,340
+como SVG, CSS, HTML e JavaScript.

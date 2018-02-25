@@ -1,0 +1,27 @@
+1
+00:00:00,390 --> 00:00:04,520
+Vimos a eficiência das Ferramentas do desenvolvedor do Chrome e
+
+2
+00:00:04,520 --> 00:00:10,850
+como inspecionamos nossa página para saber quais elementos visuais correspondem aos elementos HTML.
+
+3
+00:00:10,850 --> 00:00:14,230
+Qual tecnologia você acha que possibilita
+
+4
+00:00:14,230 --> 00:00:20,330
+inspecionar elementos por meio das ferramentas do desenvolvedor passando o cursor no
+
+5
+00:00:20,330 --> 00:00:26,380
+HTML e vendo a qual elemento visual ele corresponde na página?
+
+6
+00:00:26,380 --> 00:00:31,650
+Ou vice-versa, clicando com o botão direito em um elemento visual na
+
+7
+00:00:31,650 --> 00:00:34,200
+página da Web para encontrar as tags HTML que a compõem.

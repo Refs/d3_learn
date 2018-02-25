@@ -1,0 +1,119 @@
+1
+00:00:00,610 --> 00:00:04,640
+D3: quero desmembrar este nome, porque acho que ele explica por que
+
+2
+00:00:04,640 --> 00:00:10,310
+a biblioteca foi criada e como ela integra os dados à página da Web.
+
+3
+00:00:10,310 --> 00:00:13,540
+Documentos orientados a dados.
+
+4
+00:00:13,540 --> 00:00:18,620
+Dados, neste caso, se refere a informações que estamos tentando visualizar.
+
+5
+00:00:18,620 --> 00:00:22,525
+Podem ser CSV ou JSON, carregados externamente
+
+6
+00:00:22,525 --> 00:00:27,110
+ou apenas um objeto JavaScript ou variáveis.
+
+7
+00:00:27,110 --> 00:00:32,390
+Documentos é uma referência a uma página ou documento da Web, ou
+
+8
+00:00:32,390 --> 00:00:38,010
+uma coleção de HTML, CSS, JavaScript e SVG.
+
+9
+00:00:38,010 --> 00:00:41,470
+Mas HTML ou páginas
+
+10
+00:00:41,470 --> 00:00:47,180
+de dados não têm a mesma relação.
+
+11
+00:00:47,180 --> 00:00:52,040
+Orientado: o D3 associa dados ao documento ou,
+
+12
+00:00:52,040 --> 00:00:58,660
+de forma mais concreta, linhas de um CSV ou JSON em elementos SVG.
+
+13
+00:00:58,660 --> 00:01:04,599
+Formalmente, documentos não se refere apenas à fonte da página
+
+14
+00:01:04,599 --> 00:01:10,080
+e ao conteúdo do HTML, CSS, JavaScript ou SVG, mas
+
+15
+00:01:10,080 --> 00:01:15,200
+também pode se referir ao modelo de objeto de documento, ou DOM.
+
+16
+00:01:16,400 --> 00:01:19,920
+Navegadores da Web armazenam duas versões da página da Web, ou
+
+17
+00:01:19,920 --> 00:01:22,110
+duas exibições.
+
+18
+00:01:22,110 --> 00:01:25,618
+Uma delas é a fonte inicial, como mencionei,
+
+19
+00:01:25,618 --> 00:01:31,050
+retornada do servidor da Web, e a outra é um objeto DOM analisado.
+
+20
+00:01:31,050 --> 00:01:36,194
+O modelo de objeto de documento é uma especificação, como HTML e CSS,
+
+21
+00:01:36,194 --> 00:01:42,820
+que especifica uma interface comum de programação para documentos HTML e XML.
+
+22
+00:01:42,820 --> 00:01:48,080
+Quando a fonte do HTML é retornada do servidor, o navegador da Web
+
+23
+00:01:48,080 --> 00:01:53,040
+analisa o arquivo e o transforma em um objeto hierárquico que pode
+
+24
+00:01:53,040 --> 00:01:57,530
+ser acessado programaticamente, normalmente por JavaScript, denominado DOM.
+
+25
+00:01:58,610 --> 00:02:04,140
+O D3 associa os dados ao DOM, em vez da fonte ou dos
+
+26
+00:02:04,140 --> 00:02:06,610
+elementos visuais do HTML.
+
+27
+00:02:06,610 --> 00:02:09,660
+Como o DOM representa e
+
+28
+00:02:09,660 --> 00:02:15,680
+pode interagir com o que é exibido visualmente, ao associarmos os dados ao DOM,
+
+29
+00:02:15,680 --> 00:02:21,580
+o D3 gera o documento, neste caso, a representação visual do DOM,
+
+30
+00:02:21,580 --> 00:02:26,250
+e cria um gráfico com base nos dados do DOM.

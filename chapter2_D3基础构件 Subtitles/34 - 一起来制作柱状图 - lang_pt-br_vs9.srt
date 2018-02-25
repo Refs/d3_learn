@@ -1,0 +1,79 @@
+1
+00:00:00,630 --> 00:00:03,950
+Agora que temos certa experiência com o D3 no console,
+
+2
+00:00:03,950 --> 00:00:08,150
+eu queria falar um pouco sobre a estrutura básica de uma visualização D3 típica.
+
+3
+00:00:09,250 --> 00:00:13,400
+Vou explicar um exemplo do tutorial de Mike Bostock
+
+4
+00:00:13,400 --> 00:00:16,440
+sobre a criação de um gráfico de barras básico e os fundamentos do D3.
+
+5
+00:00:16,440 --> 00:00:20,020
+Escolhi esse exemplo por três razões.
+
+6
+00:00:20,020 --> 00:00:23,910
+A 1ª é que o tutorial é muito claro e
+
+7
+00:00:23,910 --> 00:00:27,300
+explica minuciosamente todos os conceitos fundamentais do D3.
+
+8
+00:00:28,680 --> 00:00:32,240
+Assim que terminar o tutorial, se decidir passar por ele e
+
+9
+00:00:32,240 --> 00:00:34,610
+criar este gráfico de barras que você vê aqui,
+
+10
+00:00:34,610 --> 00:00:39,750
+você terá sido exposto a todos os conceitos no D3 necessários para construir
+
+11
+00:00:39,750 --> 00:00:43,580
+visualizações mais complicadas, como encontrará mais tarde no curso.
+
+12
+00:00:43,580 --> 00:00:46,130
+A 2ª razão para escolher esse código e
+
+13
+00:00:46,130 --> 00:00:50,510
+o tutorial foi pela facilidade de acessar na Web, então
+
+14
+00:00:50,510 --> 00:00:55,420
+você pode voltar e rever, caso se sinta inseguro com relação a qualquer conceito abordado.
+
+15
+00:00:55,420 --> 00:00:58,290
+E também é universal e
+
+16
+00:00:58,290 --> 00:01:01,460
+muito comum para outras pessoas que passaram pelo tutorial.
+
+17
+00:01:01,460 --> 00:01:04,560
+Isso facilita na hora de compartilhar o que você aprendeu e
+
+18
+00:01:04,560 --> 00:01:06,220
+colaborar com os outros.
+
+19
+00:01:06,220 --> 00:01:11,610
+E a 3ª razão é simplesmente o fato de Mike Bostock ser o criador do D3.
+
+20
+00:01:11,610 --> 00:01:16,160
+E por ter construído a biblioteca, ele conhece todos os conceitos mais importantes.

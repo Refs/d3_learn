@@ -1,0 +1,14 @@
+.chart{
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+.chart div{
+    height: 10px;
+    margin: 2px;
+    background-color: aqua;
+    font-size: 14px;
+    text-align: right;
+    color: white;
+}
